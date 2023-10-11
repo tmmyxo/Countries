@@ -1,0 +1,3688 @@
+[
+    {
+        "name": {
+            "common": "Аруба",
+            "official": "Аруба",
+            "native": {
+                "nld": {
+                    "official": "Аруба",
+                    "common": "Аруба"
+                },
+                "pap": {
+                    "official": "Аруба",
+                    "common": "Аруба"
+                }
+            }
+        },
+        "tld": [
+            ".aw"
+        ],
+        "cca2": "AW",
+        "ccn3": "533",
+        "cca3": "ABW",
+        "cioc": "ARU",
+        "independent": false,
+        "status": "офіційно призначено",
+        "unMember": false,
+        "currencies": {
+            "AWG": {
+                "name": "Арубанський флорин",
+                "symbol": "\u0192"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "97"
+            ]
+        },
+        "capital": [
+            "Ораньєстад"
+        ],
+        "altSpellings": [
+            "AW"
+        ],
+        "region": "Америки",
+        "subregion": "Кариби",
+        "languages": {
+            "nld": "Голландська",
+            "pap": "Пап'яменто"
+        },
+        "translations": {
+            "ces": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "deu": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "est": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "fin": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "fra": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "hrv": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "hun": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "ita": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "jpn": {
+                "official": "\u30a2\u30eb\u30d0",
+                "common": "\u30a2\u30eb\u30d0"
+            },
+            "kor": {
+                "official": "\uc544\ub8e8\ubc14",
+                "common": "\uc544\ub8e8\ubc14"
+            },
+            "nld": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "per": {
+                "official": "\u0622\u0631\u0648\u0628\u0627",
+                "common": "\u0622\u0631\u0648\u0628\u0627"
+            },
+            "pol": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "por": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "rus": {
+                "official": "\u0410\u0440\u0443\u0431\u0430",
+                "common": "\u0410\u0440\u0443\u0431\u0430"
+            },
+            "slk": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "spa": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "swe": {
+                "official": "Аруба",
+                "common": "Аруба"
+            },
+            "urd": {
+                "official": "\u0627\u0631\u0648\u0628\u0627",
+                "common": "\u0627\u0631\u0648\u0628\u0627"
+            },
+            "zho": {
+                "official": "\u963f\u9c81\u5df4",
+                "common": "\u963f\u9c81\u5df4"
+            }
+        },
+        "latlng": [
+            12.5,
+            -69.96666666
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 180,
+        "flag": "\ud83c\udde6\ud83c\uddfc",
+        "demonyms": {
+            "eng": {
+                "f": "Арубанка",
+                "m": "Арубанець"
+            },
+            "fra": {
+                "f": "Арубанка",
+                "m": "Арубанець"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Афганістан",
+            "official": "Ісламська Республіка Афганістан",
+            "native": {
+                "prs": {
+                    "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0633\u0644\u0627\u0645\u06cc \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+                    "common": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646"
+                },
+                "pus": {
+                    "official": "\u062f \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646 \u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u0647\u0648\u0631\u06cc\u062a",
+                    "common": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646"
+                },
+                "tuk": {
+                    "official": "Овганістан Іслам Республікасы",
+                    "common": "Овганістан"
+                }
+            }
+        },
+        "tld": [
+            ".af"
+        ],
+        "cca2": "AF",
+        "ccn3": "004",
+        "cca3": "AFG",
+        "cioc": "AFG",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "AFN": {
+                "name": "Афганський афгані",
+                "symbol": "\u060b"
+            }
+        },
+        "idd": {
+            "root": "+9",
+            "suffixes": [
+                "3"
+            ]
+        },
+        "capital": [
+            "Кабул"
+        ],
+        "altSpellings": [
+            "AF",
+            "Афганістан"
+        ],
+        "region": "Азія",
+        "subregion": "Південна Азія",
+        "languages": {
+            "prs": "Дарі",
+            "pus": "Пашто",
+            "tuk": "Туркмен"
+        },
+        "translations": {
+            "ces": {
+                "official": "Афганська ісламська республіка",
+                "common": "Афганістан"
+            },
+            "cym": {
+                "official": "Ісламська Республіка Афганістан",
+                "common": "Афганістан"
+            },
+            "deu": {
+                "official": "Ісламська Республіка Афганістан",
+                "common": "Афганістан"
+            },
+            "est": {
+                "official": "Афганістанська ісламська республіка",
+                "common": "Афганістан"
+            },
+            "fin": {
+                "official": "Афганістанська ісламська республіка",
+                "common": "Афганістан"
+            },
+            "fra": {
+                "official": "Ісламська Республіка Афганістан",
+                "common": "Афганістан"
+            },
+            "hrv": {
+                "official": "Ісламська Республіка Афганістан",
+                "common": "Афганістан"
+            },
+            "hun": {
+                "official": "Афганістанська ісламська республіка",
+                "common": "Афганістан"
+            },
+            "ita": {
+                "official": "Repubblica islamica dell'Afghanistan",
+                "common": "Afghanistan"
+            },
+            "jpn": {
+                "official": "\u30a2\u30d5\u30ac\u30cb\u30b9\u30bf\u30f3\u00b7\u30a4\u30b9\u30e9\u30e0\u5171\u548c\u56fd",
+                "common": "\u30a2\u30d5\u30ac\u30cb\u30b9\u30bf\u30f3"
+            },
+            "kor": {
+                "official": "\uc544\ud504\uac00\ub2c8\uc2a4\ud0c4 \uc774\uc2ac\ub78c \uacf5\ud654\uad6d",
+                "common": "\uc544\ud504\uac00\ub2c8\uc2a4\ud0c4"
+            },
+            "nld": {
+                "official": "Islamitische Republiek Afghanistan",
+                "common": "Afghanistan"
+            },
+            "per": {
+                "official": "\u062c\u0645\u0647\u0648\u0631\u06cc \u0627\u0633\u0644\u0627\u0645\u06cc \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+                "common": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646"
+            },
+            "pol": {
+                "official": "Islamska Republika Afganistanu",
+                "common": "Afganistan"
+            },
+            "por": {
+                "official": "Rep\u00fablica Isl\u00e2mica do Afeganist\u00e3o",
+                "common": "Afeganist\u00e3o"
+            },
+            "rus": {
+                "official": "\u0418\u0441\u043b\u0430\u043c\u0441\u043a\u0430\u044f \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d",
+                "common": "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d"
+            },
+            "slk": {
+                "official": "Афг\u00e1nsky islamsk\u00fd \u0161t\u00e1t",
+                "common": "Afganistan"
+            },
+            "spa": {
+                "official": "Rep\u00fablica Isl\u00e1mica de Afganist\u00e1n",
+                "common": "Afganist\u00e1n"
+            },
+            "swe": {
+                "official": "Islamiska republiken Afghanistan",
+                "common": "Afghanistan"
+            },
+            "urd": {
+                "official": "\u0627\u0633\u0644\u0627\u0645\u06cc \u062c\u0645\u06c1\u0648\u0631\u06cc\u06c1 \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+                "common": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646"
+            },
+            "zho": {
+                "official": "\u963f\u5bcc\u6c57\u4f0a\u65af\u5170\u5171\u548c\u56fd",
+                "common": "\u963f\u5bcc\u6c57"
+            }
+        },
+        "latlng": [
+            33,
+            65
+        ],
+        "landlocked": true,
+        "borders": [
+            "IRN",
+            "PAK",
+            "TKM",
+            "UZB",
+            "TJK",
+            "CHN"
+        ],
+        "area": 652230,
+        "flag": "\ud83c\udde6\ud83c\uddeb",
+        "demonyms": {
+            "eng": {
+                "f": "Афганка",
+                "m": "Афганець"
+            },
+            "fra": {
+                "f": "Афганка",
+                "m": "Афганець"
+            }
+        }
+    },
+
+    {
+        "name": {
+            "common": "Ангола",
+            "official": "Республіка Ангола",
+            "native": {
+                "por": {
+                    "official": "Республіка де Ангола",
+                    "common": "Ангола"
+                }
+            }
+        },
+        "tld": [
+            ".ao"
+        ],
+        "cca2": "AO",
+        "ccn3": "024",
+        "cca3": "AGO",
+        "cioc": "АНГ",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "AOA": {
+                "name": "Ангольська кванза",
+                "symbol": "Kz"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "44"
+            ]
+        },
+        "capital": [
+            "Луанда"
+        ],
+        "altSpellings": [
+            "АО",
+            "Республіка де Ангола",
+            "ɾɛpublika dɛ an'ɡɔla"
+        ],
+        "region": "Африка",
+        "subregion": "Центральна Африка",
+        "languages": {
+            "por": "Португальська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Ангольська республіка",
+                "common": "Ангола"
+            },
+            "cym": {
+                "official": "Республіка Ангола",
+                "common": "Ангола"
+            },
+            "deu": {
+                "official": "Republik Angola",
+                "common": "Angola"
+            },
+            "est": {
+                "official": "Angola Vabariik",
+                "common": "Angola"
+            },
+            "fin": {
+                "official": "Angolan tasavalta",
+                "common": "Angola"
+            },
+            "fra": {
+                "official": "Республіка д'Ангола",
+                "common": "Ангола"
+            },
+            "hrv": {
+                "official": "Republika Angola",
+                "common": "Angola"
+            },
+            "hun": {
+                "official": "Angola",
+                "common": "Angola"
+            },
+            "ita": {
+                "official": "Repubblica dell'Angola",
+                "common": "Angola"
+            },
+            "jpn": {
+                "official": "Ангольська Республіка",
+                "common": "Ангола"
+            },
+            "kor": {
+                "official": "앙골라 공화국",
+                "common": "앙골라"
+            },
+            "nld": {
+                "official": "Republiek Angola",
+                "common": "Angola"
+            },
+            "per": {
+                "official": "جمهوری آنگولا",
+                "common": "آنگولا"
+            },
+            "pol": {
+                "official": "Republika Angoli",
+                "common": "Angola"
+            },
+            "por": {
+                "official": "República de Angola",
+                "common": "Angola"
+            },
+            "rus": {
+                "official": "Республика Ангола",
+                "common": "Ангола"
+            },
+            "slk": {
+                "official": "Angolská republika",
+                "common": "Angola"
+            },
+            "spa": {
+                "official": "República de Angola",
+                "common": "Angola"
+            },
+            "swe": {
+                "official": "Republiken Angola",
+                "common": "Angola"
+            },
+            "urd": {
+                "official": "جمہوریہ انگولا",
+                "common": "انگولا"
+            },
+            "zho": {
+                "official": "安哥拉共和国",
+                "common": "安哥拉"
+            }
+        },
+        "latlng": [
+            -12.5,
+            18.5
+        ],
+        "landlocked": false,
+        "borders": [
+            "COG",
+            "COD",
+            "ZMB",
+            "NAM"
+        ],
+        "area": 1246700,
+        "flag": "\ud83c\udde6\ud83c\uddf4",
+        "demonyms": {
+            "eng": {
+                "f": "Ангольська",
+                "m": "Ангольський"
+            },
+            "fra": {
+                "f": "Ангольська",
+                "m": "Ангольський"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Ангілья",
+            "official": "Ангілья",
+            "native": {
+                "eng": {
+                    "official": "Anguilla",
+                    "common": "Anguilla"
+                }
+            }
+        },
+        "tld": [
+            ".ai"
+        ],
+        "cca2": "AI",
+        "ccn3": "660",
+        "cca3": "AIA",
+        "cioc": "",
+        "independent": false,
+        "status": "офіційно призначено",
+        "unMember": false,
+        "currencies": {
+            "XCD": {
+                "name": "Східнокарибський долар",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "264"
+            ]
+        },
+        "capital": [
+            "Долина"
+        ],
+        "altSpellings": [
+            "АI"
+        ],
+        "region": "Америки",
+        "subregion": "Кариби",
+        "languages": {
+            "eng": "Англійська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Ангілья",
+                "common": "Ангілья"
+            },
+            "deu": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "est": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "fin": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "fra": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "hrv": {
+                "official": "Anguilla",
+                "common": "Ангвіла"
+            },
+            "hun": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "ita": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "jpn": {
+                "official": "Ангілья",
+                "common": "Ангілья"
+            },
+            "kor": {
+                "official": "앵귈라",
+                "common": "앵귈라"
+            },
+            "nld": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "per": {
+                "official": "آنگویلا",
+                "common": "آنگویلا"
+            },
+            "pol": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "por": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "rus": {
+                "official": "Ангилья",
+                "common": "Ангилья"
+            },
+            "slk": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "spa": {
+                "official": "Anguila",
+                "common": "Anguilla"
+            },
+            "swe": {
+                "official": "Anguilla",
+                "common": "Anguilla"
+            },
+            "urd": {
+                "official": "اینگویلا",
+                "common": "اینگویلا"
+            },
+            "zho": {
+                "official": "安圭拉",
+                "common": "安圭拉"
+            }
+        },
+        "latlng": [
+            18.25,
+            -63.16666666
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 91,
+        "flag": "\ud83c\udde6\ud83c\uddee",
+        "demonyms": {
+            "eng": {
+                "f": "Ангільянка",
+                "m": "Ангільянин"
+            },
+            "fra": {
+                "f": "Ангільянка",
+                "m": "Ангільянин"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Аландські острови",
+            "official": "Аландські острови",
+            "native": {
+                "swe": {
+                    "official": "Landskapet Аланд",
+                    "common": "Аланд"
+                }
+            }
+        },
+        "tld": [
+            ".ax"
+        ],
+        "cca2": "AX",
+        "ccn3": "248",
+        "cca3": "ALA",
+        "cioc": "",
+        "independent": false,
+        "status": "офіційно призначено",
+        "unMember": false,
+        "currencies": {
+            "EUR": {
+                "name": "Євро",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
+        "capital": [
+            "Марієгамн"
+        ],
+        "altSpellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+        "region": "Європа",
+        "subregion": "Північна Європа",
+        "languages": {
+            "swe": "Шведська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Аландські острови",
+                "common": "Аланди"
+            },
+            "deu": {
+                "official": "Аланд-Інсельн",
+                "common": "Аланд"
+            },
+            "est": {
+                "official": "Ахвенамаа маакунд",
+                "common": "Ахвенамаа"
+            },
+            "fin": {
+                "official": "Ахвенанмаан маакунта",
+                "common": "Ахвенанмаа"
+            },
+            "fra": {
+                "official": "Аландські острови",
+                "common": "Аланди"
+            },
+            "hrv": {
+                "official": "Аландські острови",
+                "common": "Аландські острови"
+            },
+            "hun": {
+                "official": "Аландські острови",
+                "common": "Аландські острови"
+            },
+            "ita": {
+                "official": "Isole Аланд",
+                "common": "Isole Аланд"
+            },
+            "jpn": {
+                "official": "オーランド諸島",
+                "common": "オーランド諸島"
+            },
+            "kor": {
+                "official": "올란드 제도",
+                "common": "올란드 제도"
+            },
+            "nld": {
+                "official": "Åland eilanden",
+                "common": "Ålandeilanden"
+            },
+            "per": {
+                "official": "جزایر الند",
+                "common": "جزایر الند"
+            },
+            "pol": {
+                "official": "Wyspy Alandzkie",
+                "common": "Wyspy Alandzkie"
+            },
+            "por": {
+                "official": "Ilhas Аланд",
+                "common": "Аландія"
+            },
+            "rus": {
+                "official": "Аландские острова",
+                "common": "Аландские острова"
+            },
+            "slk": {
+                "official": "Alandské ostrovy",
+                "common": "Alandy"
+            },
+            "spa": {
+                "official": "Islas Аланд",
+                "common": "Аландія"
+            },
+            "swe": {
+                "official": "Аланд",
+                "common": "Аланд"
+            },
+            "urd": {
+                "official": "جزائر الند",
+                "common": "جزائر الند"
+            },
+            "zho": {
+                "official": "奥兰群岛",
+                "common": "奥兰群岛"
+            }
+        },
+        "latlng": [
+            60.116667,
+            19.9
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 1580,
+        "flag": "🇦🇽",
+        "demonyms": {
+            "eng": {
+                "f": "Аландська",
+                "m": "Аландський"
+            },
+            "fra": {
+                "f": "Аландська",
+                "m": "Аландський"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Албанія",
+            "official": "Республіка Албанія",
+            "native": {
+                "sqi": {
+                    "official": "Republika e Shqipërisë",
+                    "common": "Shqipëria"
+                }
+            }
+        },
+        "tld": [
+            ".al"
+        ],
+        "cca2": "AL",
+        "ccn3": "008",
+        "cca3": "ALB",
+        "cioc": "ALB",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "ALL": {
+                "name": "Албанська лека",
+                "symbol": "L"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "55"
+            ]
+        },
+        "capital": [
+            "Тирана"
+        ],
+        "altSpellings": [
+            "AL",
+            "Shqipëri",
+            "Shqipëria",
+            "Shqipnia"
+        ],
+        "region": "Європа",
+        "subregion": "Південна Європа",
+        "languages": {
+            "sqi": "Албанська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Albánská republika",
+                "common": "Albánie"
+            },
+            "cym": {
+                "official": "Gweriniaeth Albania",
+                "common": "Albania"
+            },
+            "deu": {
+                "official": "Republik Albanien",
+                "common": "Albanien"
+            },
+            "est": {
+                "official": "Albaania Vabariik",
+                "common": "Albaania"
+            },
+            "fin": {
+                "official": "Albanian tasavalta",
+                "common": "Albania"
+            },
+            "fra": {
+                "official": "République d'Albanie",
+                "common": "Albanie"
+            },
+            "hrv": {
+                "official": "Republika Albanija",
+                "common": "Albanija"
+            },
+            "hun": {
+                "official": "Albán Köztársaság",
+                "common": "Albánia"
+            },
+            "ita": {
+                "official": "Repubblica d'Albania",
+                "common": "Albania"
+            },
+            "jpn": {
+                "official": "アルバニア共和国",
+                "common": "アルバニア"
+            },
+            "kor": {
+                "official": "알바니아 공화국",
+                "common": "알바니아"
+            },
+            "nld": {
+                "official": "Republiek Albanië",
+                "common": "Albanië"
+            },
+            "per": {
+                "official": "جمهوری آلبانی",
+                "common": "آلبانی"
+            },
+            "pol": {
+                "official": "Republika Albanii",
+                "common": "Albania"
+            },
+            "por": {
+                "official": "República da Albânia",
+                "common": "Albânia"
+            },
+            "rus": {
+                "official": "Республика Албания",
+                "common": "Албания"
+            },
+            "slk": {
+                "official": "Albánska republika",
+                "common": "Albánsko"
+            },
+            "spa": {
+                "official": "República de Albania",
+                "common": "Albania"
+            },
+            "swe": {
+                "official": "Republiken Albanien",
+                "common": "Albanien"
+            },
+            "urd": {
+                "official": "جمہوریہ البانیہ",
+                "common": "البانیہ"
+            },
+            "zho": {
+                "official": "阿尔巴尼亚共和国",
+                "common": "阿尔巴尼亚"
+            }
+        },
+        "latlng": [
+            41,
+            20
+        ],
+        "landlocked": false,
+        "borders": [
+            "MNE",
+            "GRC",
+            "MKD",
+            "UNK"
+        ],
+        "area": 28748,
+        "flag": "🇦🇱",
+        "demonyms": {
+            "eng": {
+                "f": "Албанська",
+                "m": "Албанський"
+            },
+            "fra": {
+                "f": "Албанська",
+                "m": "Албанський"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Андорра",
+            "official": "Князівство Андорра",
+            "native": {
+                "cat": {
+                    "official": "Principat d'Andorra",
+                    "common": "Andorra"
+                }
+            }
+        },
+        "tld": [
+            ".ad"
+        ],
+        "cca2": "AD",
+        "ccn3": "020",
+        "cca3": "AND",
+        "cioc": "AND",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "name": "Євро",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "76"
+            ]
+        },
+        "capital": [
+            "Андорра-ла-Велья"
+        ],
+        "altSpellings": [
+            "AD",
+            "Principality of Andorra",
+            "Principat d'Andorra"
+        ],
+        "region": "Європа",
+        "subregion": "Південна Європа",
+        "languages": {
+            "cat": "Каталанська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Andorrské knížectví",
+                "common": "Андорра"
+            },
+            "cym": {
+                "official": "Tywysogaeth Andorra",
+                "common": "Андорра"
+            },
+            "deu": {
+                "official": "Fürstentum Andorra",
+                "common": "Андорра"
+            },
+            "est": {
+                "official": "Andorra Vürstiriik",
+                "common": "Андорра"
+            },
+            "fin": {
+                "official": "Andorran ruhtinaskunta",
+                "common": "Андорра"
+            },
+            "fra": {
+                "official": "Principauté d'Andorre",
+                "common": "Андорра"
+            },
+            "hrv": {
+                "official": "Kneževina Andora",
+                "common": "Андорра"
+            },
+            "hun": {
+                "official": "Андорра",
+                "common": "Андорра"
+            },
+            "ita": {
+                "official": "Principato di Andorra",
+                "common": "Андорра"
+            },
+            "jpn": {
+                "official": "アンドラ公国",
+                "common": "アンドラ"
+            },
+            "kor": {
+                "official": "안도라 공국",
+                "common": "안도라"
+            },
+            "nld": {
+                "official": "Prinsdom Andorra",
+                "common": "Андорра"
+            },
+            "per": {
+                "official": "شاهزاده\u200cنشین آندورا",
+                "common": "آندورا"
+            },
+            "pol": {
+                "official": "Księstwo Andory",
+                "common": "Андорра"
+            },
+            "por": {
+                "official": "Principado de Andorra",
+                "common": "Андорра"
+            },
+            "rus": {
+                "official": "Княжество Андорра",
+                "common": "Андорра"
+            },
+            "slk": {
+                "official": "Andorrské kniežatstvo",
+                "common": "Андорра"
+            },
+            "spa": {
+                "official": "Principado de Andorra",
+                "common": "Андорра"
+            },
+            "swe": {
+                "official": "Furstendömet Andorra",
+                "common": "Андорра"
+            },
+            "urd": {
+                "official": "اماراتِ انڈورا",
+                "common": "انڈورا"
+            },
+            "zho": {
+                "official": "安道尔公国",
+                "common": "安道尔"
+            }
+        },
+        "latlng": [
+            42.5,
+            1.5
+        ],
+        "landlocked": true,
+        "borders": [
+            "FRA",
+            "ESP"
+        ],
+        "area": 468,
+        "flag": "🇦🇩",
+        "demonyms": {
+            "eng": {
+                "f": "Андорранська",
+                "m": "Андорранський"
+            },
+            "fra": {
+                "f": "Андорранська",
+                "m": "Андорранський"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Об'єднані Арабські Емірати",
+            "official": "Об'єднані Арабські Емірати",
+            "native": {
+                "ara": {
+                    "official": "الإمارات العربية المتحدة",
+                    "common": "دولة الإمارات العربية المتحدة"
+                }
+            }
+        },
+        "tld": [
+            ".ae",
+            "امارات."
+        ],
+        "cca2": "AE",
+        "ccn3": "784",
+        "cca3": "ARE",
+        "cioc": "ОАЕ",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "AED": {
+                "name": "Дирхам Об'єднаних Арабських Еміратів",
+                "symbol": "د.إ"
+            }
+        },
+        "idd": {
+            "root": "+9",
+            "suffixes": [
+                "71"
+            ]
+        },
+        "capital": [
+            "Абу-Дабі"
+        ],
+        "altSpellings": [
+            "ОАЕ",
+            "Об'єднані Арабські Емірати",
+            "Емірати"
+        ],
+        "region": "Азія",
+        "subregion": "Західна Азія",
+        "languages": {
+            "ara": "Арабська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Spojené arabské emiráty",
+                "common": "Spojené arabské emiráty"
+            },
+            "deu": {
+                "official": "Vereinigte Arabische Emirate",
+                "common": "Vereinigte Arabische Emirate"
+            },
+            "est": {
+                "official": "Araabia Ühendemiraadid",
+                "common": "Araabia Ühendemiraadid"
+            },
+            "fin": {
+                "official": "Yhdistyneet arabiemiirikunnat",
+                "common": "Arabiemiraatit"
+            },
+            "fra": {
+                "official": "Об'єднані Арабські Емірати",
+                "common": "Об'єднані Арабські Емірати"
+            },
+            "hrv": {
+                "official": "Ujedinjeni Arapski Emirati",
+                "common": "Ujedinjeni Arapski Emirati"
+            },
+            "hun": {
+                "official": "Egyesült Arab Emírségek",
+                "common": "Egyesült Arab Emírségek"
+            },
+            "ita": {
+                "official": "Emirati Arabi Uniti",
+                "common": "Emirati Arabi Uniti"
+            },
+            "jpn": {
+                "official": "Об'єднані Арабські Емірати",
+                "common": "Об'єднані Арабські Емірати"
+            },
+            "kor": {
+                "official": "아랍에미리트 연합",
+                "common": "아랍에미리트"
+            },
+            "nld": {
+                "official": "Verenigde Arabische Emiraten",
+                "common": "Verenigde Arabische Emiraten"
+            },
+            "per": {
+                "official": "امارات متحده عربی",
+                "common": "امارات"
+            },
+            "pol": {
+                "official": "Zjednoczone Emiraty Arabskie",
+                "common": "Zjednoczone Emiraty Arabskie"
+            },
+            "por": {
+                "official": "Emirados Árabes Unidos",
+                "common": "Emirados Árabes Unidos"
+            },
+            "rus": {
+                "official": "Объединенные Арабские Эмираты",
+                "common": "Объединенные Арабские Эмираты"
+            },
+            "slk": {
+                "official": "Spojené arabské emiráty",
+                "common": "Spojené arabské emiráty"
+            },
+            "spa": {
+                "official": "Emiratos Árabes Unidos",
+                "common": "Emiratos Árabes Unidos"
+            },
+            "swe": {
+                "official": "Förenade Arabemiraten",
+                "common": "Förenade Arabemiraten"
+            },
+            "urd": {
+                "official": "متحدہ عرب امارات",
+                "common": "متحدہ عرب امارات"
+            },
+            "zho": {
+                "official": "阿拉伯联合酋长国",
+                "common": "阿拉伯联合酋长国"
+            }
+        },
+        "latlng": [
+            24,
+            54
+        ],
+        "landlocked": false,
+        "borders": [
+            "OMN",
+            "SAU"
+        ],
+        "area": 83600,
+        "flag": "\ud83c\udde6\ud83c\uddea",
+        "demonyms": {
+            "eng": {
+                "f": "Еміратка",
+                "m": "Емірат"
+            },
+            "fra": {
+                "f": "Еміратка",
+                "m": "Емірат"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Аргентина",
+            "official": "Аргентинська Республіка",
+            "native": {
+                "grn": {
+                    "official": "Аргентинська Республіка",
+                    "common": "Аргентина"
+                },
+                "spa": {
+                    "official": "Республіка Аргентина",
+                    "common": "Аргентина"
+                }
+            }
+        },
+        "tld": [
+            ".ar"
+        ],
+        "cca2": "AR",
+        "ccn3": "032",
+        "cca3": "ARG",
+        "cioc": "ARG",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "ARS": {
+                "name": "Аргентинське песо",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+5",
+            "suffixes": [
+                "4"
+            ]
+        },
+        "capital": [
+            "Буенос-Айрес"
+        ],
+        "altSpellings": [
+            "AR",
+            "Аргентинська Республіка",
+            "Республіка Аргентина"
+        ],
+        "region": "Америки",
+        "subregion": "Південна Америка",
+        "languages": {
+            "grn": "Гуарані",
+            "spa": "Іспанська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Аргентинська республіка",
+                "common": "Аргентина"
+            },
+            "cym": {
+                "official": "Республіка Аргентина",
+                "common": "Аргентина"
+            },
+            "deu": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "est": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "fin": {
+                "official": "Аргентинська республіка",
+                "common": "Аргентина"
+            },
+            "fra": {
+                "official": "Республіка Аргентина",
+                "common": "Аргентина"
+            },
+            "hrv": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "hun": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "ita": {
+                "official": "Респуббліка Аргентина",
+                "common": "Аргентина"
+            },
+            "jpn": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "kor": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "nld": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "per": {
+                "official": "Ісламська Республіка Аргентина",
+                "common": "Аргентина"
+            },
+            "pol": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "por": {
+                "official": "Республіка Аргентина",
+                "common": "Аргентина"
+            },
+            "rus": {
+                "official": "Аргентинська Республіка",
+                "common": "Аргентина"
+            },
+            "slk": {
+                "official": "Аргентинська республіка",
+                "common": "Аргентина"
+            },
+            "spa": {
+                "official": "Республіка Аргентина",
+                "common": "Аргентина"
+            },
+            "swe": {
+                "official": "Republiken Argentina",
+                "common": "Argentina"
+            },
+            "urd": {
+                "official": "جمہوریہ آرجنٹائن",
+                "common": "آرجنٹائن"
+            },
+            "zho": {
+                "official": "阿根廷共和国",
+                "common": "阿根廷"
+            }
+        },
+        "latlng": [
+            -34,
+            -64
+        ],
+        "landlocked": false,
+        "borders": [
+            "BOL",
+            "BRA",
+            "CHL",
+            "PRY",
+            "URY"
+        ],
+        "area": 2780400,
+        "flag": "🇦🇷",
+        "demonyms": {
+            "eng": {
+                "f": "Аргентинська",
+                "m": "Аргентинський"
+            },
+            "fra": {
+                "f": "Аргентинка",
+                "m": "Аргентинець"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Вірменія",
+            "official": "Республіка Вірменія",
+            "native": {
+                "hye": {
+                    "official": "Հայաստանի Հանրապետություն",
+                    "common": "Հայաստան"
+                }
+            }
+        },
+        "tld": [
+            ".am"
+        ],
+        "cca2": "AM",
+        "ccn3": "051",
+        "cca3": "ARM",
+        "cioc": "ARM",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "AMD": {
+                "name": "Вірменський драм",
+                "symbol": "֏"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "74"
+            ]
+        },
+        "capital": [
+            "Єреван"
+        ],
+        "altSpellings": [
+            "AM",
+            "Հայաստան",
+            "Республіка Вірменія",
+            "Հայաստանի Հանրապետություն"
+        ],
+        "region": "Азія",
+        "subregion": "Західна Азія",
+        "languages": {
+            "hye": "Вірменська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Arménská republika",
+                "common": "Arménie"
+            },
+            "cym": {
+                "official": "Gweriniaeth Armenia",
+                "common": "Armenia"
+            },
+            "deu": {
+                "official": "Republik Armenien",
+                "common": "Armenien"
+            },
+            "est": {
+                "official": "Armeenia Vabariik",
+                "common": "Armeenia"
+            },
+            "fin": {
+                "official": "Armenian tasavalta",
+                "common": "Armenia"
+            },
+            "fra": {
+                "official": "République d'Arménie",
+                "common": "Arménie"
+            },
+            "hrv": {
+                "official": "Republika Armenija",
+                "common": "Armenija"
+            },
+            "hun": {
+                "official": "Örményország",
+                "common": "Örményország"
+            },
+            "ita": {
+                "official": "Repubblica di Armenia",
+                "common": "Armenia"
+            },
+            "jpn": {
+                "official": "アルメニア共和国",
+                "common": "アルメニア"
+            },
+            "kor": {
+                "official": "아르메니아 공화국",
+                "common": "아르메니아"
+            },
+            "nld": {
+                "official": "Republiek Armenië",
+                "common": "Armenië"
+            },
+            "per": {
+                "official": "جمهوری ارمنستان",
+                "common": "ارمنستان"
+            },
+            "pol": {
+                "official": "Republika Armenii",
+                "common": "Armenia"
+            },
+            "por": {
+                "official": "República da Arménia",
+                "common": "Arménia"
+            },
+            "rus": {
+                "official": "Республика Армения",
+                "common": "Армения"
+            },
+            "slk": {
+                "official": "Arménska republika",
+                "common": "Arménsko"
+            },
+            "spa": {
+                "official": "República de Armenia",
+                "common": "Armenia"
+            },
+            "swe": {
+                "official": "Republiken Armenien",
+                "common": "Armenien"
+            },
+            "urd": {
+                "official": "جمہوریہ آرمینیا",
+                "common": "آرمینیا"
+            },
+            "zho": {
+                "official": "亚美尼亚共和国",
+                "common": "亚美尼亚"
+            }
+        },
+        "latlng": [
+            40,
+            45
+        ],
+        "landlocked": true,
+        "borders": [
+            "AZE",
+            "GEO",
+            "IRN",
+            "TUR"
+        ],
+        "area": 29743,
+        "flag": "🇦🇲",
+        "demonyms": {
+            "eng": {
+                "f": "Вірменка",
+                "m": "Вірменець"
+            },
+            "fra": {
+                "f": "Arménienne",
+                "m": "Arménien"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Американське Самоа",
+            "official": "Американське Самоа",
+            "native": {
+                "eng": {
+                    "official": "American Samoa",
+                    "common": "American Samoa"
+                },
+                "smo": {
+                    "official": "Sāmoa Amelika",
+                    "common": "Sāmoa Amelika"
+                }
+            }
+        },
+        "tld": [
+            ".as"
+        ],
+        "cca2": "AS",
+        "ccn3": "016",
+        "cca3": "ASM",
+        "cioc": "ASA",
+        "independent": false,
+        "status": "офіційно призначено",
+        "unMember": false,
+        "currencies": {
+            "USD": {
+                "name": "Долар США",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "684"
+            ]
+        },
+        "capital": [
+            "Паго Паго"
+        ],
+        "altSpellings": [
+            "AS",
+            "Америка Самоа",
+            "Амеліка Самоа",
+            "Самоа Амеліка"
+        ],
+        "region": "Океанія",
+        "subregion": "Полінезія",
+        "languages": {
+            "eng": "Англійська",
+            "smo": "Самоанська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Americká Samoa",
+                "common": "Americká Samoa"
+            },
+            "deu": {
+                "official": "Amerikanisch-Samoa",
+                "common": "Amerikanisch-Samoa"
+            },
+            "est": {
+                "official": "Ameerika Samoa",
+                "common": "Ameerika Samoa"
+            },
+            "fin": {
+                "official": "Amerikan Samoa",
+                "common": "Amerikan Samoa"
+            },
+            "fra": {
+                "official": "Samoa américaines",
+                "common": "Samoa américaines"
+            },
+            "hrv": {
+                "official": "američka Samoa",
+                "common": "Američka Samoa"
+            },
+            "hun": {
+                "official": "Szamoa",
+                "common": "Szamoa"
+            },
+            "ita": {
+                "official": "Samoa americane",
+                "common": "Samoa Americane"
+            },
+            "jpn": {
+                "official": "アメリカ領サモア",
+                "common": "アメリカ領サモア"
+            },
+            "kor": {
+                "official": "아메리칸사모아",
+                "common": "아메리칸사모아"
+            },
+            "nld": {
+                "official": "Amerikaans Samoa",
+                "common": "Amerikaans Samoa"
+            },
+            "per": {
+                "official": "ساموآی امریکا",
+                "common": "ساموآی امریکا"
+            },
+            "pol": {
+                "official": "Samoa Amerykańskie",
+                "common": "Samoa Amerykańskie"
+            },
+            "por": {
+                "official": "Samoa americana",
+                "common": "Samoa Americana"
+            },
+            "rus": {
+                "official": "американское Самоа",
+                "common": "Американское Самоа"
+            },
+            "slk": {
+                "official": "Americká Samoa",
+                "common": "Americká Samoa"
+            },
+            "spa": {
+                "official": "Samoa Americana",
+                "common": "Samoa Americana"
+            },
+            "swe": {
+                "official": "Amerikanska Samoa",
+                "common": "Amerikanska Samoa"
+            },
+            "urd": {
+                "official": "امریکی سمووا",
+                "common": "امریکی سمووا"
+            },
+            "zho": {
+                "official": "美属萨摩亚",
+                "common": "美属萨摩亚"
+            }
+        },
+        "latlng": [
+            -14.33333333,
+            -170
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 199,
+        "flag": "🇦🇸",
+        "demonyms": {
+            "eng": {
+                "f": "Американська самоанка",
+                "m": "Американський самоанець"
+            },
+            "fra": {
+                "f": "Самоанка",
+                "m": "Самоанець"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Антарктида",
+            "official": "Антарктида",
+            "native": {}
+        },
+        "tld": [
+            ".aq"
+        ],
+        "cca2": "AQ",
+        "ccn3": "010",
+        "cca3": "ATA",
+        "cioc": "",
+        "independent": false,
+        "status": "офіційно призначено",
+        "unMember": false,
+        "currencies": {},
+        "idd": {
+            "root": "",
+            "suffixes": []
+        },
+        "capital": [
+            ""
+        ],
+        "altSpellings": [
+            "AQ"
+        ],
+        "region": "Антарктика",
+        "subregion": "",
+        "languages": {},
+        "translations": {
+            "ces": {
+                "official": "Antarktida",
+                "common": "Antarktida"
+            },
+            "cym": {
+                "official": "Yr Antarctig",
+                "common": "Yr Antarctig"
+            },
+            "deu": {
+                "official": "Antarktika",
+                "common": "Antarktis"
+            },
+            "est": {
+                "official": "Antarktika",
+                "common": "Antarktika"
+            },
+            "fin": {
+                "official": "Etelämanner",
+                "common": "Etelämanner"
+            },
+            "fra": {
+                "official": "Antarctique",
+                "common": "Antarctique"
+            },
+            "hrv": {
+                "official": "Antarktika",
+                "common": "Antarktika"
+            },
+            "hun": {
+                "official": "Antarktisz",
+                "common": "Antarktisz"
+            },
+            "ita": {
+                "official": "Antartide",
+                "common": "Antartide"
+            },
+            "jpn": {
+                "official": "南極大陸",
+                "common": "南極"
+            },
+            "kor": {
+                "official": "남극",
+                "common": "남극"
+            },
+            "nld": {
+                "official": "Antarctica",
+                "common": "Antarctica"
+            },
+            "per": {
+                "official": "جنوبگان",
+                "common": "جنوبگان"
+            },
+            "pol": {
+                "official": "Antarktyka",
+                "common": "Antarktyka"
+            },
+            "por": {
+                "official": "Antártida",
+                "common": "Antártida"
+            },
+            "rus": {
+                "official": "Антарктида",
+                "common": "Антарктика"
+            },
+            "slk": {
+                "official": "Antarktída",
+                "common": "Antarktída"
+            },
+            "spa": {
+                "official": "Antártida",
+                "common": "Antártida"
+            },
+            "swe": {
+                "official": "Antarktis",
+                "common": "Antarktis"
+            },
+            "urd": {
+                "official": "انٹارکٹکا",
+                "common": "انٹارکٹکا"
+            },
+            "zho": {
+                "official": "南极洲",
+                "common": "南极洲"
+            }
+        },
+        "latlng": [
+            -90,
+            0
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 14000000,
+        "flag": "🇦🇶",
+        "demonyms": {
+            "eng": {
+                "f": "Антарктична",
+                "m": "Антарктичний"
+            },
+            "fra": {
+                "f": "Antarctique",
+                "m": "Antarctique"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Французькі південні та антарктичні землі",
+            "official": "Територія Французьких південних і антарктичних земель",
+            "native": {
+                "fra": {
+                    "official": "Територія Французьких південних і антарктичних земель",
+                    "common": "Французькі південні та антарктичні землі"
+                }
+            }
+        },
+        "tld": [
+            ".tf"
+        ],
+        "cca2": "TF",
+        "ccn3": "260",
+        "cca3": "ATF",
+        "cioc": "",
+        "independent": false,
+        "status": "офіційно призначено",
+        "unMember": false,
+        "currencies": {
+            "EUR": {
+                "name": "Євро",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "62"
+            ]
+        },
+        "capital": [
+            "Порт-о-Франсе"
+        ],
+        "altSpellings": [
+            "TF",
+            "Французькі південні території"
+        ],
+        "region": "Антарктика",
+        "subregion": "",
+        "languages": {
+            "fra": "Французька"
+        },
+        "translations": {
+            "ces": {
+                "official": "Територія Французьких південних і антарктичних земель",
+                "common": "Французькі південні та антарктичні землі"
+            },
+            "deu": {
+                "official": "Область Французьких південних і антарктичних земель",
+                "common": "Французькі південні і антарктичні землі"
+            },
+            "est": {
+                "official": "Французькі південні території",
+                "common": "Французькі південні території"
+            },
+            "fin": {
+                "official": "Французькі південні та антарктичні території",
+                "common": "Французькі південні та антарктичні території"
+            },
+            "fra": {
+                "official": "Територія Французьких південних і антарктичних земель",
+                "common": "Французькі південні та антарктичні землі"
+            },
+            "hrv": {
+                "official": "Територія Французьких південних і антарктичних земель",
+                "common": "Французькі південні та антарктичні землі"
+            },
+            "hun": {
+                "official": "Територія Французьких південних і антарктичних земель",
+                "common": "Французькі південні та антарктичні землі"
+            },
+            "ita": {
+                "official": "Територія Французьких південних і антарктичних земель",
+                "common": "Території Франції на півдні"
+            },
+            "jpn": {
+                "official": "Французькі південні і антарктичні землі",
+                "common": "Французькі південні і антарктичні землі"
+            },
+            "kor": {
+                "official": "Французькі південні і антарктичні землі",
+                "common": "Французькі південні і антарктичні землі"
+            },
+            "nld": {
+                "official": "Gebied van de Franse Zuidelijke en Antarctische gebieden",
+                "common": "Franse Gebieden in de zuidelijke Indische Oceaan"
+            },
+            "per": {
+                "official": "سرزمین\u200cهای جنوبی و جنوبگانی فرانسه",
+                "common": "سرزمین\u200cهای جنوبی و جنوبگانی فرانسه"
+            },
+            "pol": {
+                "official": "Francuskie Terytoria Południowe i Antarktyczne",
+                "common": "Francuskie Terytoria Południowe i Antarktyczne"
+            },
+            "por": {
+                "official": "Território do Sul e Antártica Francesa",
+                "common": "Terras Austrais e Antárticas Francesas"
+            },
+            "rus": {
+                "official": "Территория Французские Южные и Антарктические земли",
+                "common": "Французские Южные и Антарктические территории"
+            },
+            "slk": {
+                "official": "Francúzske južné a antarktické územia",
+                "common": "Francúzske južné a antarktické územia"
+            },
+            "spa": {
+                "official": "Territorio del Francés Tierras australes y antárticas",
+                "common": "Tierras Australes y Antárticas Francesas"
+            },
+            "swe": {
+                "official": "Franska syd- och Antarktisterritorierna",
+                "common": "Franska södra territorierna"
+            },
+            "urd": {
+                "official": "سرزمین\u200cهای جنوبی فرانسیسیہ و انٹارکٹکا",
+                "common": "سرزمین جنوبی فرانسیسیہ و انٹارکٹکا"
+            },
+            "zho": {
+                "official": "法国南部和南极土地",
+                "common": "法国南部和南极土地"
+            }
+        },
+        "latlng": [
+            -49.25,
+            69.167
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 7747,
+        "flag": "\ud83c\uddf9\ud83c\uddeb",
+        "demonyms": {
+            "eng": {
+                "f": "Француженка",
+                "m": "Француз"
+            },
+            "fra": {
+                "f": "Француженка",
+                "m": "Француз"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Антигуа і Барбуда",
+            "official": "Антигуа і Барбуда",
+            "native": {
+                "eng": {
+                    "official": "Antigua and Barbuda",
+                    "common": "Antigua and Barbuda"
+                }
+            }
+        },
+        "tld": [
+            ".ag"
+        ],
+        "cca2": "AG",
+        "ccn3": "028",
+        "cca3": "ATG",
+        "cioc": "ANT",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "XCD": {
+                "name": "Східнокарибський долар",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+1",
+            "suffixes": [
+                "268"
+            ]
+        },
+        "capital": [
+            "Сент-Джонс"
+        ],
+        "altSpellings": [
+            "AG",
+            "Антигуа і Барбуда"
+        ],
+        "region": "Америки",
+        "subregion": "Кариби",
+        "languages": {
+            "eng": "Англійська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Antigua a Barbuda",
+                "common": "Antigua a Barbuda"
+            },
+            "deu": {
+                "official": "Antigua und Barbuda",
+                "common": "Antigua und Barbuda"
+            },
+            "est": {
+                "official": "Antigua ja Barbuda",
+                "common": "Antigua ja Barbuda"
+            },
+            "fin": {
+                "official": "Antigua ja Barbuda",
+                "common": "Antigua ja Barbuda"
+            },
+            "fra": {
+                "official": "Antigua-et-Barbuda",
+                "common": "Antigua-et-Barbuda"
+            },
+            "hrv": {
+                "official": "Antigva i Barbuda",
+                "common": "Antigva i Barbuda"
+            },
+            "hun": {
+                "official": "Antigua és Barbuda",
+                "common": "Antigua és Barbuda"
+            },
+            "ita": {
+                "official": "Antigua e Barbuda",
+                "common": "Antigua e Barbuda"
+            },
+            "jpn": {
+                "official": "アンティグア・バーブーダ",
+                "common": "アンティグア・バーブーダ"
+            },
+            "kor": {
+                "official": "앤티가 바부다",
+                "common": "앤티가 바부다"
+            },
+            "nld": {
+                "official": "Antigua en Barbuda",
+                "common": "Antigua en Barbuda"
+            },
+            "per": {
+                "official": "آنتیگوا و باربودا",
+                "common": "آنتیگوا و باربودا"
+            },
+            "pol": {
+                "official": "Antigua i Barbuda",
+                "common": "Antigua i Barbuda"
+            },
+            "por": {
+                "official": "Antigua e Barbuda",
+                "common": "Antigua e Barbuda"
+            },
+            "rus": {
+                "official": "Антигуа и Барбуда",
+                "common": "Антигуа и Барбуда"
+            },
+            "slk": {
+                "official": "Antigua a Barbuda",
+                "common": "Antigua a Barbuda"
+            },
+            "spa": {
+                "official": "Antigua y Barbuda",
+                "common": "Antigua y Barbuda"
+            },
+            "swe": {
+                "official": "Antigua och Barbuda",
+                "common": "Antigua och Barbuda"
+            },
+            "urd": {
+                "official": "اینٹیگوا و باربوڈا",
+                "common": "اینٹیگوا و باربوڈا"
+            },
+            "zho": {
+                "official": "安提瓜和巴布达",
+                "common": "安提瓜和巴布达"
+            }
+        },
+        "latlng": [
+            17.05,
+            -61.8
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 442,
+        "flag": "🇦🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Антигуа і барбудійка",
+                "m": "Антигуа і барбудіець"
+            },
+            "fra": {
+                "f": "Antiguaise",
+                "m": "Antiguais"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Австралія",
+            "official": "Комонвелт Австралії",
+            "native": {
+                "eng": {
+                    "official": "Комонвелт Австралії",
+                    "common": "Австралія"
+                }
+            }
+        },
+        "tld": [
+            ".au"
+        ],
+        "cca2": "AU",
+        "ccn3": "036",
+        "cca3": "AUS",
+        "cioc": "AUS",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "AUD": {
+                "name": "Австралійський долар",
+                "symbol": "$"
+            }
+        },
+        "idd": {
+            "root": "+6",
+            "suffixes": [
+                "1"
+            ]
+        },
+        "capital": [
+            "Канберра"
+        ],
+        "altSpellings": [
+            "AU"
+        ],
+        "region": "Океанія",
+        "subregion": "Австралія і Нова Зеландія",
+        "languages": {
+            "eng": "Англійська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Австральська спільнота",
+                "common": "Австралія"
+            },
+            "cym": {
+                "official": "Cymanwlad Awstralia",
+                "common": "Awstralia"
+            },
+            "deu": {
+                "official": "Commonwealth Australien",
+                "common": "Australien"
+            },
+            "est": {
+                "official": "Австралійська співдружність",
+                "common": "Австралія"
+            },
+            "fin": {
+                "official": "Австралійський союз",
+                "common": "Австралія"
+            },
+            "fra": {
+                "official": "Австралія",
+                "common": "Австралія"
+            },
+            "hrv": {
+                "official": "Комонвелт Австралії",
+                "common": "Австралія"
+            },
+            "hun": {
+                "official": "Ausztrál Államszövetség",
+                "common": "Ausztrália"
+            },
+            "ita": {
+                "official": "Commonwealth dell'Australia",
+                "common": "Australia"
+            },
+            "jpn": {
+                "official": "オーストラリア連邦",
+                "common": "オーストラリア"
+            },
+            "kor": {
+                "official": "오스트레일리아 연방",
+                "common": "호주"
+            },
+            "nld": {
+                "official": "Gemenebest van Australië",
+                "common": "Australië"
+            },
+            "per": {
+                "official": "قلمرو همسود استرالیا",
+                "common": "استرالیا"
+            },
+            "pol": {
+                "official": "Związek Australijski",
+                "common": "Australia"
+            },
+            "por": {
+                "official": "Comunidade da Austrália",
+                "common": "Austrália"
+            },
+            "rus": {
+                "official": "Содружество Австралии",
+                "common": "Австралия"
+            },
+            "slk": {
+                "official": "Austrálsky zväz",
+                "common": "Austrália"
+            },
+            "spa": {
+                "official": "Mancomunidad de Australia",
+                "common": "Australia"
+            },
+            "swe": {
+                "official": "Australiska statsförbundet",
+                "common": "Australien"
+            },
+            "urd": {
+                "official": "دولتِ مشترکہ آسٹریلیا",
+                "common": "آسٹریلیا"
+            },
+            "zho": {
+                "official": "澳大利亚联邦",
+                "common": "澳大利亚"
+            }
+        },
+        "latlng": [
+            -27,
+            133
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 7692024,
+        "flag": "🇦🇺",
+        "demonyms": {
+            "eng": {
+                "f": "Австралійка",
+                "m": "Австралець"
+            },
+            "fra": {
+                "f": "Австралійка",
+                "m": "Австралець"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Австрія",
+            "official": "Республіка Австрія",
+            "native": {
+                "bar": {
+                    "official": "Republik Österreich",
+                    "common": "Österreich"
+                }
+            }
+        },
+        "tld": [
+            ".at"
+        ],
+        "cca2": "AT",
+        "ccn3": "040",
+        "cca3": "AUT",
+        "cioc": "AUT",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "name": "Євро",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+4",
+            "suffixes": [
+                "3"
+            ]
+        },
+        "capital": [
+            "Відень"
+        ],
+        "altSpellings": [
+            "AT",
+            "Osterreich",
+            "Oesterreich"
+        ],
+        "region": "Європа",
+        "subregion": "Західна Європа",
+        "languages": {
+            "bar": "Австро-баварська німецька"
+        },
+        "translations": {
+            "ces": {
+                "official": "Rakouská republika",
+                "common": "Rakousko"
+            },
+            "cym": {
+                "official": "Gweriniaeth Awstria",
+                "common": "Awstria"
+            },
+            "deu": {
+                "official": "Republik Österreich",
+                "common": "Österreich"
+            },
+            "est": {
+                "official": "Austria Vabariik",
+                "common": "Austria"
+            },
+            "fin": {
+                "official": "Itävallan tasavalta",
+                "common": "Itävalta"
+            },
+            "fra": {
+                "official": "République d'Autriche",
+                "common": "Autriche"
+            },
+            "hrv": {
+                "official": "Republika Austrija",
+                "common": "Austrija"
+            },
+            "hun": {
+                "official": "Ausztria",
+                "common": "Ausztria"
+            },
+            "ita": {
+                "official": "Repubblica d'Austria",
+                "common": "Austria"
+            },
+            "jpn": {
+                "official": "オーストリア共和国",
+                "common": "オーストリア"
+            },
+            "kor": {
+                "official": "오스트리아 공화국",
+                "common": "오스트리아"
+            },
+            "nld": {
+                "official": "Republiek Oostenrijk",
+                "common": "Oostenrijk"
+            },
+            "per": {
+                "official": "جمهوری اتریش",
+                "common": "اتریش"
+            },
+            "pol": {
+                "official": "Republika Austrii",
+                "common": "Austria"
+            },
+            "por": {
+                "official": "República da Áustria",
+                "common": "Áustria"
+            },
+            "rus": {
+                "official": "Австрийская Республика",
+                "common": "Австрия"
+            },
+            "slk": {
+                "official": "Rakúska republika",
+                "common": "Rakúsko"
+            },
+            "spa": {
+                "official": "República de Austria",
+                "common": "Austria"
+            },
+            "swe": {
+                "official": "Republiken Österrike",
+                "common": "Österrike"
+            },
+            "urd": {
+                "official": "جمہوریہ آسٹریا",
+                "common": "آسٹریا"
+            },
+            "zho": {
+                "official": "奥地利共和国",
+                "common": "奥地利"
+            }
+        },
+        "latlng": [
+            47.33333333,
+            13.33333333
+        ],
+        "landlocked": true,
+        "borders": [
+            "CZE",
+            "DEU",
+            "HUN",
+            "ITA",
+            "LIE",
+            "SVK",
+            "SVN",
+            "CHE"
+        ],
+        "area": 83871,
+        "flag": "🇦🇹",
+        "demonyms": {
+            "eng": {
+                "f": "Австрійка",
+                "m": "Австрієць"
+            },
+            "fra": {
+                "f": "Австрійка",
+                "m": "Австрієць"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Азербайджан",
+            "official": "Азербайджанська Республіка",
+            "native": {
+                "aze": {
+                    "official": "Azərbaycan Respublikası",
+                    "common": "Azərbaycan"
+                },
+                "rus": {
+                    "official": "Азербайджанская Республика",
+                    "common": "Азербайджан"
+                }
+            }
+        },
+        "tld": [
+            ".az"
+        ],
+        "cca2": "AZ",
+        "ccn3": "031",
+        "cca3": "AZE",
+        "cioc": "AZE",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "AZN": {
+                "name": "Азербайджанський манат",
+                "symbol": "₼"
+            }
+        },
+        "idd": {
+            "root": "+9",
+            "suffixes": [
+                "94"
+            ]
+        },
+        "capital": [
+            "Баку"
+        ],
+        "altSpellings": [
+            "AZ",
+            "Republic of Azerbaijan",
+            "Azərbaycan Respublikası"
+        ],
+        "region": "Азія",
+        "subregion": "Південна Азія",
+        "languages": {
+            "aze": "Азербайджанська",
+            "rus": "Російська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Ázerbájdžánská republika",
+                "common": "Ázerbájdžán"
+            },
+            "cym": {
+                "official": "Gweriniaeth Aserbaijan",
+                "common": "Aserbaijan"
+            },
+            "deu": {
+                "official": "Republik Aserbaidschan",
+                "common": "Aserbaidschan"
+            },
+            "est": {
+                "official": "Aserbaidžaani Vabariik",
+                "common": "Aserbaidžaan"
+            },
+            "fin": {
+                "official": "Azerbaidžanin tasavalta",
+                "common": "Azerbaidžan"
+            },
+            "fra": {
+                "official": "République d'Azerbaïdjan",
+                "common": "Azerbaïdjan"
+            },
+            "hrv": {
+                "official": "Republika Azerbajdžan",
+                "common": "Azerbajdžan"
+            },
+            "hun": {
+                "official": "Azerbajdzsáni Köztársaság",
+                "common": "Azerbajdzsán"
+            },
+            "ita": {
+                "official": "Repubblica dell'Azerbaigian",
+                "common": "Azerbaigian"
+            },
+            "jpn": {
+                "official": "アゼルバイジャン共和国",
+                "common": "アゼルバイジャン"
+            },
+            "kor": {
+                "official": "아제르바이잔 공화국",
+                "common": "아제르바이잔"
+            },
+            "nld": {
+                "official": "Republiek Azerbeidzjan",
+                "common": "Azerbeidzjan"
+            },
+            "per": {
+                "official": "جمهوری آذربایجان",
+                "common": "آذربایجان"
+            },
+            "pol": {
+                "official": "Republika Azerbejdżanu",
+                "common": "Azerbejdżan"
+            },
+            "por": {
+                "official": "República do Azerbaijão",
+                "common": "Azerbaijão"
+            },
+            "rus": {
+                "official": "Азербайджанская Республика",
+                "common": "Азербайджан"
+            },
+            "slk": {
+                "official": "Azerbajdžanská republika",
+                "common": "Azerbajdžan"
+            },
+            "spa": {
+                "official": "República de Azerbaiyán",
+                "common": "Azerbaiyán"
+            },
+            "swe": {
+                "official": "Republiken Azerbajdzjan",
+                "common": "Azerbajdzjan"
+            },
+            "urd": {
+                "official": "جمہوریہ آذربائیجان",
+                "common": "آذربائیجان"
+            },
+            "zho": {
+                "official": "阿塞拜疆共和国",
+                "common": "阿塞拜疆"
+            }
+        },
+        "latlng": [
+            40.5,
+            47.5
+        ],
+        "landlocked": true,
+        "borders": [
+            "ARM",
+            "GEO",
+            "IRN",
+            "RUS",
+            "TUR"
+        ],
+        "area": 86600,
+        "flag": "🇦🇿",
+        "demonyms": {
+            "eng": {
+                "f": "Азербайджанка",
+                "m": "Азербайджанець"
+            },
+            "fra": {
+                "f": "Азербайджанка",
+                "m": "Азербайджанець"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Бурунді",
+            "official": "Республіка Бурунді",
+            "native": {
+                "fra": {
+                    "official": "Республіка Бурунді",
+                    "common": "Бурунді"
+                },
+                "run": {
+                    "official": "Республіка Бурунді",
+                    "common": "Бурунді"
+                }
+            }
+        },
+        "tld": [
+            ".bi"
+        ],
+        "cca2": "BI",
+        "ccn3": "108",
+        "cca3": "BDI",
+        "cioc": "BDI",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "BIF": {
+                "name": "Бурундійський франк",
+                "symbol": "Fr"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "57"
+            ]
+        },
+        "capital": [
+            "Гітега"
+        ],
+        "altSpellings": [
+            "BI",
+            "Республіка Бурунді",
+            "Республіка Бурунді",
+            "Республіка Бурунді"
+        ],
+        "region": "Африка",
+        "subregion": "Східна Африка",
+        "languages": {
+            "fra": "Французька",
+            "run": "Кірунді"
+        },
+        "translations": {
+            "ces": {
+                "official": "Бурундійська республіка",
+                "common": "Бурунді"
+            },
+            "cym": {
+                "official": "Gweriniaeth Bwrwndi",
+                "common": "Bwrwndi"
+            },
+            "deu": {
+                "official": "Republik Burundi",
+                "common": "Burundi"
+            },
+            "est": {
+                "official": "Burundi Vabariik",
+                "common": "Burundi"
+            },
+            "fin": {
+                "official": "Burundin tasavalta",
+                "common": "Burundi"
+            },
+            "fra": {
+                "official": "Республіка Бурунді",
+                "common": "Бурунді"
+            },
+            "hrv": {
+                "official": "Бурунді",
+                "common": "Бурунді"
+            },
+            "hun": {
+                "official": "Бурунді",
+                "common": "Бурунді"
+            },
+            "ita": {
+                "official": "Repubblica del Burundi",
+                "common": "Burundi"
+            },
+            "jpn": {
+                "official": "Бурундійська республіка",
+                "common": "Бурунді"
+            },
+            "kor": {
+                "official": "Бурунді",
+                "common": "Бурунді"
+            },
+            "nld": {
+                "official": "Republiek Burundi",
+                "common": "Бурунді"
+            },
+            "per": {
+                "official": "جمهوری بوروندی",
+                "common": "بوروندی"
+            },
+            "pol": {
+                "official": "Republika Burundi",
+                "common": "Burundi"
+            },
+            "por": {
+                "official": "República do Burundi",
+                "common": "Burundi"
+            },
+            "rus": {
+                "official": "Республика Бурунди",
+                "common": "Бурунди"
+            },
+            "slk": {
+                "official": "Burundská republika",
+                "common": "Burundi"
+            },
+            "spa": {
+                "official": "República de Burundi",
+                "common": "Burundi"
+            },
+            "swe": {
+                "official": "Republiken Burundi",
+                "common": "Burundi"
+            },
+            "urd": {
+                "official": "جمہوریہ برونڈی",
+                "common": "برونڈی"
+            },
+            "zho": {
+                "official": "布隆迪共和国",
+                "common": "布隆迪"
+            }
+        },
+        "latlng": [
+            -3.5,
+            30
+        ],
+        "landlocked": true,
+        "borders": [
+            "COD",
+            "RWA",
+            "TZA"
+        ],
+        "area": 27834,
+        "flag": "🇧🇮",
+        "demonyms": {
+            "eng": {
+                "f": "Бурундійка",
+                "m": "Бурундійець"
+            },
+            "fra": {
+                "f": "Бурундійка",
+                "m": "Бурундієць"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Бельгія",
+            "official": "Королівство Бельгія",
+            "native": {
+                "deu": {
+                    "official": "Королівство Бельгія",
+                    "common": "Бельгія"
+                },
+                "fra": {
+                    "official": "Королівство Бельгія",
+                    "common": "Бельгія"
+                },
+                "nld": {
+                    "official": "Королівство Бельгія",
+                    "common": "Бельгія"
+                }
+            }
+        },
+        "tld": [
+            ".be"
+        ],
+        "cca2": "BE",
+        "ccn3": "056",
+        "cca3": "BEL",
+        "cioc": "BEL",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "EUR": {
+                "name": "Євро",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "2"
+            ]
+        },
+        "capital": [
+            "Брюссель"
+        ],
+        "altSpellings": [
+            "BE",
+            "Бельгія",
+            "Belgie",
+            "Belgien",
+            "Belgique",
+            "Kingdom of Belgium",
+            "Koninkrijk België",
+            "Royaume de Belgique",
+            "Königreich Belgien"
+        ],
+        "region": "Європа",
+        "subregion": "Західна Європа",
+        "languages": {
+            "deu": "Німецька",
+            "fra": "Французька",
+            "nld": "Голландська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Бельгійське королівство",
+                "common": "Бельгія"
+            },
+            "cym": {
+                "official": "Тейрнас Гвлад Бельг",
+                "common": "Гвлад Бельг"
+            },
+            "deu": {
+                "official": "Королівство Бельгія",
+                "common": "Бельгія"
+            },
+            "est": {
+                "official": "Бельгія Кунінгрік",
+                "common": "Бельгія"
+            },
+            "fin": {
+                "official": "Бельгійське королівство",
+                "common": "Бельгія"
+            },
+            "fra": {
+                "official": "Королівство Бельгія",
+                "common": "Бельгія"
+            },
+            "hrv": {
+                "official": "Королівство Бельгія",
+                "common": "Бельгія"
+            },
+            "hun": {
+                "official": "Бельгійське королівство",
+                "common": "Бельгія"
+            },
+            "ita": {
+                "official": "Королівство Бельгія",
+                "common": "Бельгія"
+            },
+            "jpn": {
+                "official": "Королівство Бельгія",
+                "common": "Бельгія"
+            },
+            "kor": {
+                "official": "Королівство Бельгія",
+                "common": "Бельгія"
+            },
+            "nld": {
+                "official": "Королівство Бельгія",
+                "common": "Бельгія"
+            },
+            "per": {
+                "official": "پادشاهی بلژیک",
+                "common": "بلژیک"
+            },
+            "pol": {
+                "official": "Królestwo Belgii",
+                "common": "Belgia"
+            },
+            "por": {
+                "official": "Reino da Bélgica",
+                "common": "Bélgica"
+            },
+            "rus": {
+                "official": "Королевство Бельгия",
+                "common": "Бельгия"
+            },
+            "slk": {
+                "official": "Belgické kráľovstvo",
+                "common": "Belgicko"
+            },
+            "spa": {
+                "official": "Reino de Bélgica",
+                "common": "Bélgica"
+            },
+            "swe": {
+                "official": "Konungariket Belgien",
+                "common": "Belgien"
+            },
+            "urd": {
+                "official": "مملکتِ بلجئیم",
+                "common": "بلجئیم"
+            },
+            "zho": {
+                "official": "比利时王国",
+                "common": "比利时"
+            }
+        },
+        "latlng": [
+            50.83333333,
+            4
+        ],
+        "landlocked": false,
+        "borders": [
+            "FRA",
+            "DEU",
+            "LUX",
+            "NLD"
+        ],
+        "area": 30528,
+        "flag": "🇧🇪",
+        "demonyms": {
+            "eng": {
+                "f": "Бельгійська",
+                "m": "Бельгійський"
+            },
+            "fra": {
+                "f": "Бельгійка",
+                "m": "Бельгієць"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Бенін",
+            "official": "Республіка Бенін",
+            "native": {
+                "fra": {
+                    "official": "Республіка Бенін",
+                    "common": "Бенін"
+                }
+            }
+        },
+        "tld": [
+            ".bj"
+        ],
+        "cca2": "BJ",
+        "ccn3": "204",
+        "cca3": "BEN",
+        "cioc": "BEN",
+        "independent": true,
+        "status": "officially-assigned",
+        "unMember": true,
+        "currencies": {
+            "XOF": {
+                "name": "Франк Заходноафриканського СПЕГС",
+                "symbol": "Fr"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "29"
+            ]
+        },
+        "capital": [
+            "Порто-Ново"
+        ],
+        "altSpellings": [
+            "BJ",
+            "Республіка Бенін",
+            "Републіка Бенін"
+        ],
+        "region": "Африка",
+        "subregion": "Західна Африка",
+        "languages": {
+            "fra": "Французька"
+        },
+        "translations": {
+            "ces": {
+                "official": "Бенінська Республіка",
+                "common": "Бенін"
+            },
+            "cym": {
+                "official": "Gweriniaeth Benin",
+                "common": "Benin"
+            },
+            "deu": {
+                "official": "Republik Benin",
+                "common": "Benin"
+            },
+            "est": {
+                "official": "Benini Vabariik",
+                "common": "Benin"
+            },
+            "fin": {
+                "official": "Beninin tasavalta",
+                "common": "Benin"
+            },
+            "fra": {
+                "official": "Республіка Бенін",
+                "common": "Бенін"
+            },
+            "hrv": {
+                "official": "Republika Benin",
+                "common": "Benin"
+            },
+            "hun": {
+                "official": "Benini Köztársaság",
+                "common": "Benin"
+            },
+            "ita": {
+                "official": "Repubblica del Benin",
+                "common": "Benin"
+            },
+            "jpn": {
+                "official": "ベナン共和国",
+                "common": "ベナン"
+            },
+            "kor": {
+                "official": "베냉 공화국",
+                "common": "베나인"
+            },
+            "nld": {
+                "official": "Republiek Benin",
+                "common": "Benin"
+            },
+            "per": {
+                "official": "جمهوری بنین",
+                "common": "بنین"
+            },
+            "pol": {
+                "official": "Benin",
+                "common": "Benin"
+            },
+            "por": {
+                "official": "República do Benin",
+                "common": "Benin"
+            },
+            "rus": {
+                "official": "Республика Бенин",
+                "common": "Бенин"
+            },
+            "slk": {
+                "official": "Beninská republika",
+                "common": "Benin"
+            },
+            "spa": {
+                "official": "República de Benin",
+                "common": "Benín"
+            },
+            "swe": {
+                "official": "Republiken Benin",
+                "common": "Benin"
+            },
+            "urd": {
+                "official": "جمہوریہ بینن",
+                "common": "بینن"
+            },
+            "zho": {
+                "official": "贝宁共和国",
+                "common": "贝宁"
+            }
+        },
+        "latlng": [
+            9.5,
+            2.25
+        ],
+        "landlocked": false,
+        "borders": [
+            "BFA",
+            "NER",
+            "NGA",
+            "TGO"
+        ],
+        "area": 112622,
+        "flag": "🇧🇯",
+        "demonyms": {
+            "eng": {
+                "f": "Бенінська",
+                "m": "Бенінський"
+            },
+            "fra": {
+                "f": "Бенінка",
+                "m": "Бенінець"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Буркіна-Фасо",
+            "official": "Республіка Буркіна-Фасо",
+            "native": {
+                "fra": {
+                    "official": "Республіка Буркіна",
+                    "common": "Буркіна-Фасо"
+                }
+            }
+        },
+        "tld": [
+            ".bf"
+        ],
+        "cca2": "BF",
+        "ccn3": "854",
+        "cca3": "BFA",
+        "cioc": "BUR",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "XOF": {
+                "name": "Західноафриканський франк CFA",
+                "symbol": "Fr"
+            }
+        },
+        "idd": {
+            "root": "+2",
+            "suffixes": [
+                "26"
+            ]
+        },
+        "capital": [
+            "Уагадугу"
+        ],
+        "altSpellings": [
+            "БФ"
+        ],
+        "region": "Африка",
+        "subregion": "Заходна Африка",
+        "languages": {
+            "fra": "Французька"
+        },
+        "translations": {
+            "ces": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "cym": {
+                "official": "Республіка Буркіна",
+                "common": "Буркіна-Фасо"
+            },
+            "deu": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "est": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "fin": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "fra": {
+                "official": "Республіка Буркіна",
+                "common": "Буркіна-Фасо"
+            },
+            "hrv": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "hun": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна"
+            },
+            "ita": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "jpn": {
+                "official": "Республіка Буркіна",
+                "common": "Буркіна-Фасо"
+            },
+            "kor": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "nld": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "per": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "pol": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "por": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "rus": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "slk": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "spa": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "swe": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "urd": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            },
+            "zho": {
+                "official": "Буркіна-Фасо",
+                "common": "Буркіна-Фасо"
+            }
+        },
+        "latlng": [
+            13,
+            -2
+        ],
+        "landlocked": true,
+        "borders": [
+            "БЕН",
+            "КОТ-д'Івуар",
+            "ГАНА",
+            "МАЛІ",
+            "НІГЕР",
+            "ТОГО"
+        ],
+        "area": 272967,
+        "flag": "\ud83c\udde7\ud83c\uddeb",
+        "demonyms": {
+            "eng": {
+                "f": "Буркінабе",
+                "m": "Буркінабе"
+            },
+            "fra": {
+                "f": "Буркінабезька",
+                "m": "Буркінабезький"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Бангладеш",
+            "official": "Народна Республіка Бангладеш",
+            "native": {
+                "ben": {
+                    "official": "Народна Республіка Бангладеш",
+                    "common": "Бангладеш"
+                }
+            }
+        },
+        "tld": [
+            ".bd"
+        ],
+        "cca2": "BD",
+        "ccn3": "050",
+        "cca3": "BGD",
+        "cioc": "BAN",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "BDT": {
+                "name": "Бангладеська така",
+                "symbol": "৳"
+            }
+        },
+        "idd": {
+            "root": "+8",
+            "suffixes": [
+                "80"
+            ]
+        },
+        "capital": [
+            "Дакка"
+        ],
+        "altSpellings": [
+            "BD",
+            "People's Republic of Bangladesh",
+            "Gônôprôjatôntri Bangladesh"
+        ],
+        "region": "Азія",
+        "subregion": "Південна Азія",
+        "languages": {
+            "ben": "Бенгальська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Národní dohoda","common": "Bangladéš"
+            },
+            "cym": {
+                "official": "Gweriniaeth Pobl Bangladesh","common": "Bangladesh"
+            },
+            "deu": {
+                "official": "Volksrepublik Bangladesch","common": "Bangladesch"
+            },
+            "est": {
+                "official": "Bangladeshi Rahvavabariik","common": "Bangladesh"
+            },
+            "fin": {
+                "official": "Bangladeshin kansantasavalta","common": "Bangladesh"
+            },
+            "fra": {
+                "official": "La République populaire du Bangladesh","common": "Bangladesh"
+            },
+            "hrv": {
+                "official": "Narodna Republika Bangladeš","common": "Bangladeš"
+            },
+            "hun": {
+                "official": "Banglades","common": "Banglades"
+            },
+            "ita": {
+                "official": "Repubblica popolare del Bangladesh","common": "Bangladesh"
+            },
+            "jpn": {
+                "official": "バングラデシュ人民共和国","common": "バングラデシュ"
+            },
+            "kor": {
+                "official": "방글라데시 인민 공화국","common": "방글라데시"
+            },
+            "nld": {
+                "official": "Volksrepubliek Bangladesh","common": "Bangladesh"
+            },
+            "per": {
+                "official": "جمهوری خلق بنگلادش","common": "بنگلادش"
+            },
+            "pol": {
+                "official": "Ludowa Republika Bangladeszu","common": "Bangladesz"
+            },
+            "por": {
+                "official": "República Popular do Bangladesh","common": "Bangladesh"
+            },
+            "rus": {
+                "official": "Народная Республика Бангладеш","common": "Бангладеш"
+            },
+            "slk": {
+                "official": "Bangladéšska ľudová republika","common": "Bangladéš"
+            },
+            "spa": {
+                "official": "República Popular de Bangladesh","common": "Bangladesh"
+            },
+            "swe": {
+                "official": "Folkrepubliken Bangladesh","common": "Bangladesh"
+            },
+            "urd": {
+                "official": "جمہوریہ بنگلہ دیش","common": "بنگلہ دیش"
+            },
+            "zho": {
+                "official": "孟加拉人民共和国","common": "孟加拉国"
+            }
+        },
+        "latlng": [
+            24,
+            90
+        ],
+        "landlocked": false,
+        "borders": [
+            "MMR",
+            "IND"
+        ],
+        "area": 147570,
+        "flag": "\ud83c\udde7\ud83c\uddf4",
+        "demonyms": {
+            "eng": {
+                "f": "Bangladeshi",
+                "m": "Bangladeshi"
+            },
+            "fra": {
+                "f": "Bangladaise",
+                "m": "Bangladais"
+            }
+        }
+    }, 
+    {
+        "name": {
+            "common": "Болгарія",
+            "official": "Республіка Болгарія",
+            "native": {
+                "bul": {
+                    "official": "Република България",
+                    "common": "България"
+                }
+            }
+        },
+        "tld": [
+            ".bg"
+        ],
+        "cca2": "BG",
+        "ccn3": "100",
+        "cca3": "BGR",
+        "cioc": "BUL",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "BGN": {
+                "name": "Болгарський лев",
+                "symbol": "лв"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "59"
+            ]
+        },
+        "capital": [
+            "Софія"
+        ],
+        "altSpellings": [
+            "BG",
+            "Республіка Болгарія",
+            "България"
+        ],
+        "region": "Європа",
+        "subregion": "Східна Європа",
+        "languages": {
+            "bul": "Болгарська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Болгарська республіка",
+                "common": "Болгарія"
+            },
+            "cym": {
+                "official": "Республіка Болгарія",
+                "common": "Болгарія"
+            },
+            "deu": {
+                "official": "Republik Bulgarien",
+                "common": "Bulgarien"
+            },
+            "est": {
+                "official": "Республика Болгария",
+                "common": "Болгария"
+            },
+            "fin": {
+                "official": "Bulgarian tasavalta",
+                "common": "Bulgaria"
+            },
+            "fra": {
+                "official": "Республика Болгария",
+                "common": "Болгария"
+            },
+            "hrv": {
+                "official": "Republika Bugarska",
+                "common": "Бугарска"
+            },
+            "hun": {
+                "official": "Болгар Кьозтарсасаг",
+                "common": "Болгарія"
+            },
+            "ita": {
+                "official": "Repubblica di Bulgaria",
+                "common": "Bulgaria"
+            },
+            "jpn": {
+                "official": "Республіка Болгарія",
+                "common": "Болгарія"
+            },
+            "kor": {
+                "official": "불가리아 공화국",
+                "common": "불가리아"
+            },
+            "nld": {
+                "official": "Republiek Bulgarije",
+                "common": "Bulgarije"
+            },
+            "per": {
+                "official": "جمهوری بلغارستان",
+                "common": "بلغارستان"
+            },
+            "pol": {
+                "official": "Republika Bułgarii",
+                "common": "Bułgaria"
+            },
+            "por": {
+                "official": "República da Bulgária",
+                "common": "Bulgária"
+            },
+            "rus": {
+                "official": "Республика Болгария",
+                "common": "Болгария"
+            },
+            "slk": {
+                "official": "Bulharská republika",
+                "common": "Bulharsko"
+            },
+            "spa": {
+                "official": "República de Bulgaria",
+                "common": "Bulgaria"
+            },
+            "swe": {
+                "official": "Republiken Bulgarien",
+                "common": "Bulgarien"
+            },
+            "urd": {
+                "official": "جمہوریہ بلغاریہ",
+                "common": "بلغاریہ"
+            },
+            "zho": {
+                "official": "保加利亚共和国",
+                "common": "保加利亚"
+            }
+        },
+        "latlng": [
+            43,
+            25
+        ],
+        "landlocked": false,
+        "borders": [
+            "GRC",
+            "MKD",
+            "ROU",
+            "SRB",
+            "TUR"
+        ],
+        "area": 110879,
+        "flag": "🇧🇬",
+        "demonyms": {
+            "eng": {
+                "f": "Болгарка",
+                "m": "Болгарин"
+            },
+            "fra": {
+                "f": "Болгарка",
+                "m": "Болгарин"
+            }
+        }
+    },
+    {
+        "name": {
+            "common": "Бахрейн",
+            "official": "Королівство Бахрейн",
+            "native": {
+                "ara": {
+                    "official": "مملكة البحرين",
+                    "common": "البحرين"
+                }
+            }
+        },
+        "tld": [
+            ".bh"
+        ],
+        "cca2": "BH",
+        "ccn3": "048",
+        "cca3": "BHR",
+        "cioc": "BRN",
+        "independent": true,
+        "status": "офіційно призначено",
+        "unMember": true,
+        "currencies": {
+            "BHD": {
+                "name": "Бахрейнський динар",
+                "symbol": ".د.ب"
+            }
+        },
+        "idd": {
+            "root": "+9",
+            "suffixes": [
+                "73"
+            ]
+        },
+        "capital": [
+            "Манама"
+        ],
+        "altSpellings": [
+            "BH",
+            "Королівство Бахрейн",
+            "Мамлакат аль-Бахрейн"
+        ],
+        "region": "Азія",
+        "subregion": "Західна Азія)\"",
+        "languages": {
+            "ara": "Арабська"
+        },
+        "translations": {
+            "ces": {
+                "official": "Kr�moскранкая мова",
+                "common": "Беларуская"
+            },
+            "cym": {
+                "official": "Каралеўства Бахрэйн",
+                "common": "Бахрэйн"
+            },
+            "deu": {
+                "official": "Königreich Bahrain",
+                "common": "Bahrain"
+            },
+            "est": {
+                "official": "Bahreini Kuningriik",
+                "common": "Bahrein"
+            },
+            "fin": {
+                "official": "Bahreinin kuningaskunta",
+                "common": "Bahrain"
+            },
+            "fra": {
+                "official": "Royaume de Bahreïn",
+                "common": "Bahreïn"
+            },
+            "hrv": {
+                "official": "Kraljevina Bahrein",
+                "common": "Bahrein"
+            },
+            "hun": {
+                "official": "Bahreini Királyság",
+                "common": "Bahrein"
+            },
+            "ita": {
+                "official": "Regno del Bahrain",
+                "common": "Bahrein"
+            },
+            "jpn": {
+                "official": "バーレーン王国",
+                "common": "バーレーン"
+            },
+            "kor": {
+                "official": "바레인",
+                "common": "바레인"
+            },
+            "nld": {
+                "official": "Koninkrijk Bahrein",
+                "common": "Bahrein"
+            },
+            "per": {
+                "official": "پادشاهی بحرین",
+                "common": "بحرین"
+            },
+            "pol": {
+                "official": "Królestwo Bahrajnu",
+                "common": "Bahrajn"
+            },
+            "por": {
+                "official": "Reino do Bahrein",
+                "common": "Bahrein"
+            },
+            "rus": {
+                "official": "Королевство Бахрейн",
+                "common": "Бахрейн"
+            },
+            "slk": {
+                "official": "Bahrajnské kráľovstvo",
+                "common": "Bahrajn"
+            },
+            "spa": {
+                "official": "Reino de Bahrein",
+                "common": "Bahrein"
+            },
+            "swe": {
+                "official": "Konungariket Bahrain",
+                "common": "Bahrain"
+            },
+            "urd": {
+                "official": "مملکتِ بحرین",
+                "common": "بحرین"
+            },
+            "zho": {
+                "official": "巴林王国",
+                "common": "巴林"
+            }
+        },
+        "latlng": [
+            26,
+            50.55
+        ],
+        "landlocked": false,
+        "borders": [],
+        "area": 765,
+        "flag": "🇧🇭",
+        "demonyms": {
+            "eng": {
+                "f": "Бахрейнка",
+                "m": "Бахрейнця"
+            },
+            "fra": {
+                "f": "Бахрейнка",
+                "m": "Бахрейнця"
+            }
+        }
+    }
+
+]
