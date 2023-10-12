@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Inconsolata", Arial, sans-serif;
+/*  font-family: "Inconsolata", Arial, sans-serif;*/
   font-weight: 400;
   font-size: 18px;
   line-height: 1.7;
@@ -64,9 +64,31 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Inconsolata", Arial, sans-serif;
-  font-weight: 400;
+/*  font-family: 'Montserrat', sans-serif;*/
+font-family: 'Red Hat Display', sans-serif;
+/*  font-family: "Inconsolata", Arial, sans-serif;*/
+  font-weight: 300;
   margin: 0 0 20px 0;
+}
+
+.boldTitle {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.boldSecondaryTitle {
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 45px;
+}
+
+.mainContentText {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  line-height: 32px;
+/*  font-family: 'Montserrat', sans-serif;*/
 }
 
 ::-webkit-selection {
@@ -474,6 +496,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-wireframe {
   border: none !important;
+/*  background-color: lightpink;*/
 }
 #fh5co-wireframe blockquote {
   border: none;
@@ -521,9 +544,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-hero {
-  background-color: greenyellow;
-  height: 700px;
-  background: url(../images/loader.gif) no-repeat center center;
+/*  background-color: greenyellow;*/
+  height: 750px;
+/*  background: url(../images/loader.gif) no-repeat center center;*/
 }
 #fh5co-hero .btn {
   font-size: 24px;
@@ -541,9 +564,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top center;
-  height: 700px !important;
+  background-size: cover;
+  background-position: top, left, bottom, right;
+  height: 750px !important;
   position: relative;
  /* -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -710,7 +733,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: #dd356e;
+  background: #252627;
 }
 #fh5co-started .fh5co-heading {
   margin-bottom: 0;
@@ -1286,9 +1309,10 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Inconsolata", Arial, sans-serif;
+/*  font-family: "Inconsolata", Arial, sans-serif;*/
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;

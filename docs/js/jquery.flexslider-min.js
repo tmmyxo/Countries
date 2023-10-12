@@ -144,35 +144,35 @@
                         n.manualControls ? f.controlNav.setupManual() : f.controlNav.setupPaging();
                     },
                     setupPaging: function () {
-                        // var e = "thumbnails" === n.vars.controlNav ? "control-thumbs" : "control-paging",
-                        //     t = 1,
-                        //     a,
-                        //     s;
-                        // if (((n.controlNavScaffold = $('<ol class="' + i + "control-nav " + i + e + '"></ol>')), n.pagingCount > 1))
-                        //     for (var r = 0; r < n.pagingCount; r++) {
-                        //         if (
-                        //             ((s = n.slides.eq(r)),
-                        //             void 0 === s.attr("data-thumb-alt") && s.attr("data-thumb-alt", ""),
-                        //             (altText = "" !== s.attr("data-thumb-alt") ? (altText = ' alt="' + s.attr("data-thumb-alt") + '"') : ""),
-                        //             (a = "thumbnails" === n.vars.controlNav ? '<img src="' + s.attr("data-thumb") + '"' + altText + "/>" : '<a href="#">' + t + "</a>"),
-                        //             "thumbnails" === n.vars.controlNav && !0 === n.vars.thumbCaptions)
-                        //         ) {
-                        //             var c = s.attr("data-thumbcaption");
-                        //             "" !== c && void 0 !== c && (a += '<span class="' + i + 'caption">' + c + "</span>");
-                        //         }
-                        //         n.controlNavScaffold.append("<li>" + a + "</li>"), t++;
-                        //     }
-                        // n.controlsContainer ? $(n.controlsContainer).append(n.controlNavScaffold) : n.append(n.controlNavScaffold),
-                        //     f.controlNav.set(),
-                        //     f.controlNav.active(),
-                        //     n.controlNavScaffold.delegate("a, img", o, function (e) {
-                        //         if ((e.preventDefault(), "" === l || l === e.type)) {
-                        //             var t = $(this),
-                        //                 a = n.controlNav.index(t);
-                        //             t.hasClass(i + "active") || ((n.direction = a > n.currentSlide ? "next" : "prev"), n.flexAnimate(a, n.vars.pauseOnAction));
-                        //         }
-                        //         "" === l && (l = e.type), f.setToClearWatchedEvent();
-                        //     });
+                        var e = "thumbnails" === n.vars.controlNav ? "control-thumbs" : "control-paging",
+                            t = 1,
+                            a,
+                            s;
+                        if (((n.controlNavScaffold = $('<ol class="' + i + "control-nav " + i + e + '"></ol>')), n.pagingCount > 1))
+                            for (var r = 0; r < n.pagingCount; r++) {
+                                if (
+                                    ((s = n.slides.eq(r)),
+                                    void 0 === s.attr("data-thumb-alt") && s.attr("data-thumb-alt", ""),
+                                    (altText = "" !== s.attr("data-thumb-alt") ? (altText = ' alt="' + s.attr("data-thumb-alt") + '"') : ""),
+                                    (a = "thumbnails" === n.vars.controlNav ? '<img src="' + s.attr("data-thumb") + '"' + altText + "/>" : '<a href="#">' + t + "</a>"),
+                                    "thumbnails" === n.vars.controlNav && !0 === n.vars.thumbCaptions)
+                                ) {
+                                    var c = s.attr("data-thumbcaption");
+                                    "" !== c && void 0 !== c && (a += '<span class="' + i + 'caption">' + c + "</span>");
+                                }
+                                n.controlNavScaffold.append("<li>" + a + "</li>"), t++;
+                            }
+                        n.controlsContainer ? $(n.controlsContainer).append(n.controlNavScaffold) : n.append(n.controlNavScaffold),
+                            f.controlNav.set(),
+                            f.controlNav.active();
+                            // n.controlNavScaffold.delegate("a, img", o, function (e) {
+                            //     if ((e.preventDefault(), "" === l || l === e.type)) {
+                            //         var t = $(this),
+                            //             a = n.controlNav.index(t);
+                            //         t.hasClass(i + "active") || ((n.direction = a > n.currentSlide ? "next" : "prev"), n.flexAnimate(a, n.vars.pauseOnAction));
+                            //     }
+                            //     "" === l && (l = e.type), f.setToClearWatchedEvent();
+                            // });
                     },
                     setupManual: function () {
                         (n.controlNav = n.manualControls),
