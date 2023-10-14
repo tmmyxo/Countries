@@ -82,10 +82,14 @@ font-family: 'Red Hat Display', sans-serif;
   margin-top: 45px;
 }
 
+.topMarginIncreased {
+  margin-top: 100px;
+}
+
 .mainContentText {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   word-spacing: 0px;
   line-height: 32px;
 /*  font-family: 'Montserrat', sans-serif;*/
@@ -545,9 +549,11 @@ font-family: 'Red Hat Display', sans-serif;
 
 #fh5co-hero {
 /*  background-color: greenyellow;*/
-  height: 750px;
+/*  height: 750px;*/
 /*  background: url(../images/loader.gif) no-repeat center center;*/
 }
+
+
 #fh5co-hero .btn {
   font-size: 24px;
 }
@@ -559,14 +565,34 @@ font-family: 'Red Hat Display', sans-serif;
   z-index: 1;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 997px) {
+  #fh5co-hero .flexslider {
+    margin-bottom: -15vw;
+  }
+
+  #fh5co-hero .flexslider .slides li{
+    height: 140vw !important;
+  }
+  
+}
 #fh5co-hero .flexslider .slides {
   position: relative;
 }
+.flexslider .slides:after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: top, left, bottom, right;
-  height: 750px !important;
+/*  height: 750px !important;*/
   position: relative;
  /* -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -696,6 +722,14 @@ font-family: 'Red Hat Display', sans-serif;
 .fh5co-heading {
   margin-bottom: 5em;
 }
+
+@media screen and (max-width: 997px) {
+  .fh5co-heading {
+    margin-bottom: 0px;
+  }
+}
+
+
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }

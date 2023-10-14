@@ -248,7 +248,9 @@ extension ExpandableLocationLabel {
             return
         }
         if animated {
-            let ownBottomYPosition = self.frame.maxY
+
+            let safeAreaFrame = superview.convert(superview.safeAreaLayoutGuide.layoutFrame, to: superview)
+
             let scale = CGAffineTransform.init(scaleX: 0.1, y: 1)
 
             let animationOptions = AnimationOptions.curveEaseIn
@@ -261,16 +263,23 @@ extension ExpandableLocationLabel {
                 UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.3) {
                     superview.layoutIfNeeded()
                 }
-                UIView.addKeyframe(withRelativeStartTime: 0.3, relativeDuration: 0.3) {
-                    let positionTranslation = CGAffineTransform(translationX: 0, y: (-ownBottomYPosition + (self.bounds.height)))
+                let ownBottomYPosition = self.frame.maxY
+                let notchArea = (ownBottomYPosition - (safeAreaFrame.minY / 2))
+
+                UIView.addKeyframe(withRelativeStartTime: 0.2, relativeDuration: 0.2) {
+                    self.locationLabel.alpha = 0
+                }
+                UIView.addKeyframe(withRelativeStartTime: 0.3, relativeDuration: 0.4) {
+                    let positionTranslation = CGAffineTransform(translationX: 0, y: -safeAreaFrame.minY / 2)
                     self.locationLabel.transform = scale
                     self.locationLabelUnderlayer.transform = scale
-                    self.locationLabel.alpha = 0
+
                     self.transform = positionTranslation
                 }
                 UIView.addKeyframe(withRelativeStartTime: 0.6, relativeDuration: 0.3) {
-                    let positionTranslation = CGAffineTransform(translationX: 0, y: -ownBottomYPosition)
-                    self.transform = positionTranslation
+
+                    let positionTranslation = CGAffineTransform(translationX: 0, y: -notchArea)
+                    self.transform = positionTranslation.concatenating(scale)
                 }
             } completion: { _ in
                 self.isHidden = true
@@ -295,8 +304,12 @@ extension ExpandableLocationLabel {
             superview.layoutIfNeeded()
 
             let ownBottomYPosition = self.frame.maxY
+            let safeAreaFrame = superview.convert(superview.safeAreaLayoutGuide.layoutFrame, to: superview)
+            let notchArea = (ownBottomYPosition - (safeAreaFrame.minY / 2))
+            print("\nsafeAreaMinY: \(safeAreaFrame.minY) \nNotchArea: \(notchArea)")
             let scale = CGAffineTransform.init(scaleX: 0.1, y: 1)
-            let position = CGAffineTransform(translationX: 0, y: -ownBottomYPosition)
+            let position = CGAffineTransform(translationX: 0, y: -notchArea)
+            locationLabel.alpha = 0
             self.transform = scale.concatenating(position)
             self.isHidden = false
 
@@ -305,12 +318,13 @@ extension ExpandableLocationLabel {
 
             UIView.animateKeyframes(withDuration: 0.6, delay: 0, options: options) {
 
-                UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.35) {
-                    let position1 = CGAffineTransform(translationX: 0, y: (-ownBottomYPosition + (self.bounds.height)))
+                UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.25) {
+                    let position1 = CGAffineTransform(translationX: 0, y: -safeAreaFrame.minY / 2)
                     let scale1 = CGAffineTransform(scaleX: 0.1, y: 1)
-                    self.transform = position1.concatenating(scale1)
+                    self.transform = scale1.concatenating(position1)
                 }
-                UIView.addKeyframe(withRelativeStartTime: 0.35, relativeDuration: 0.35) {
+                UIView.addKeyframe(withRelativeStartTime: 0.20, relativeDuration: 0.5) {
+                    self.locationLabel.alpha = 1
                     self.transform = .identity
                 }
                 self.expandButtonExposedStateTopConstraint.isActive = true

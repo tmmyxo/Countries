@@ -164,15 +164,15 @@
                             }
                         n.controlsContainer ? $(n.controlsContainer).append(n.controlNavScaffold) : n.append(n.controlNavScaffold),
                             f.controlNav.set(),
-                            f.controlNav.active();
-                            // n.controlNavScaffold.delegate("a, img", o, function (e) {
-                            //     if ((e.preventDefault(), "" === l || l === e.type)) {
-                            //         var t = $(this),
-                            //             a = n.controlNav.index(t);
-                            //         t.hasClass(i + "active") || ((n.direction = a > n.currentSlide ? "next" : "prev"), n.flexAnimate(a, n.vars.pauseOnAction));
-                            //     }
-                            //     "" === l && (l = e.type), f.setToClearWatchedEvent();
-                            // });
+                            f.controlNav.active(),
+                            n.controlNavScaffold.delegate("a, img", o, function (e) {
+                                if ((e.preventDefault(), "" === l || l === e.type)) {
+                                    var t = $(this),
+                                        a = n.controlNav.index(t);
+                                    t.hasClass(i + "active") || ((n.direction = a > n.currentSlide ? "next" : "prev"), n.flexAnimate(a, n.vars.pauseOnAction));
+                                }
+                                "" === l && (l = e.type), f.setToClearWatchedEvent();
+                            });
                     },
                     setupManual: function () {
                         (n.controlNav = n.manualControls),

@@ -682,6 +682,7 @@ ul ol,
 ol ul,
 ol ol {
   margin-bottom: 0;
+  list-style: none;
 }
 
 .list-unstyled {
@@ -701,13 +702,22 @@ ol ol {
 }
 
 .skillsBulletList {
-  font-size: 30px;
-  font-weight: 500;
-  font-family: 'Red Hat Display', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+/*  font-family: 'Red Hat Display', sans-serif;*/
+  font-family: "Inconsolata", Arial, sans-serif;
+  color: #E36EA0;
   line-height: 48px;
-  margin-left: 5px;
 }
 
+.customBullet li::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: black; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 0.2em; 
+}
 
 dl {
   margin-top: 0;
@@ -6264,4 +6274,4 @@ button.close {
   }
 }
 
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map 

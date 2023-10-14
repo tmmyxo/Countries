@@ -7,7 +7,7 @@
 
 import UIKit
 import MapKit
-import CoreData
+import CoreData.NSManagedObject
 
 class MapAnnotation: NSObject, MKAnnotation {
     
