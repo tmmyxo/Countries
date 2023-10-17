@@ -141,13 +141,28 @@ font-family: 'Red Hat Display', sans-serif;
   margin-right: auto;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 535px) {
+  .tertiaryTitle {
+    font-size: 28px !important;
+  }
+
+  .boldTitle {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
  .descriptionText {
   font-size: 21px !important;
  }
 
  .tertiaryTitle {
+  margin-top: 60px !important;
   font-size: 30px;
+ }
+
+ .boldTitle {
+  margin-top: 60px !important;
  }
 }
 
@@ -199,6 +214,11 @@ font-family: 'Red Hat Display', sans-serif;
 
   .tertiaryTitle {
     font-size: 30px;
+    margin-top: 90px;
+  }
+
+  .boldTitle {
+    margin-top: 100px;
   }
 }
 
@@ -207,7 +227,14 @@ font-family: 'Red Hat Display', sans-serif;
     font-size: 21px;
 /*    line-height: 27px;*/
   }
-  
+
+  .tertiaryTitle {
+    margin-top: 90px;
+  }
+
+  .boldTitle {
+    margin-top: 100px;
+  }
 }
 
 .decreasedTopMargin {
@@ -730,7 +757,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (max-width: 768px) {
  #fh5co-hero .flexslider {
-    margin-bottom: -5vw;
+    margin-bottom: -10vw;
     margin-left: auto;
   }
 
@@ -743,7 +770,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (min-width: 768px) {
  #fh5co-hero .flexslider {
-    margin-bottom: -5vw;
+    margin-bottom: -10vw;
     margin-left: auto;
   }
 
@@ -756,7 +783,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (max-width: 992px) {
   #fh5co-hero .flexslider {
-    margin-bottom: -5vw;
+    margin-bottom: -10vw;
     margin-left: auto;
     margin-right: 0px;
   }

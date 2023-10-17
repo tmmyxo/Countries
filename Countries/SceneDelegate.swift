@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.layer.speed = 0.6
+        // window?.layer.speed = 0.6
         window?.rootViewController = CustomTabBarController()
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene

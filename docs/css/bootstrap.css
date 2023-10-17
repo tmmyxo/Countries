@@ -989,6 +989,7 @@ pre code {
     width: 90%;
   }
   .fullWidthContainer {
+    margin-top: 10px;
     width: 100%;
   }
 
@@ -1032,6 +1033,7 @@ pre code {
 
   .fullWidthContainer {
     width: 100%;
+    margin-top: 70px;
   }
 
   .headerContainer {
