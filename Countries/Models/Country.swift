@@ -25,9 +25,8 @@ class Country: Codable, Hashable {
     var isSelected: Bool = true
     
     lazy var widthFixedFlagLink: URL?  = {
-        print("flag link requested with CCA2: \(cca2)")
         let stringURL = "https://flagcdn.com/w640/\(cca2.lowercased()).png"
-        print(stringURL)
+        
         if let encodedURL = stringURL.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
             return URL(string: encodedURL)
         } else {

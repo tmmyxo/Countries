@@ -124,7 +124,6 @@ class CountryDetailsVC: UIViewController, UIScrollViewDelegate {
 
     // MARK: Init
     init(country: Country) {
-        print(country.languages)
         viewModel = CountryDetailsViewModel(country: country)
         super.init(nibName: nil, bundle: nil)
         setupErrorHandling()

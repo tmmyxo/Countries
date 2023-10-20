@@ -36,7 +36,7 @@ class CountriesService {
     final func downloadFlagImages(for countries: [Country], completion: @escaping (Result<[Country], Error>) -> Void) {
         let dispatchGroup = DispatchGroup()
         for country in countries {
-            print("link \(country.heightFixedFlagLink!), country: \(country.name.common)")
+            
             dispatchGroup.enter()
             loadImage(country.heightFixedFlagLink!) { result in
                 switch result {

@@ -306,7 +306,6 @@ extension ExpandableLocationLabel {
             let ownBottomYPosition = self.frame.maxY
             let safeAreaFrame = superview.convert(superview.safeAreaLayoutGuide.layoutFrame, to: superview)
             let notchArea = (ownBottomYPosition - (safeAreaFrame.minY / 2))
-            print("\nsafeAreaMinY: \(safeAreaFrame.minY) \nNotchArea: \(notchArea)")
             let scale = CGAffineTransform.init(scaleX: 0.1, y: 1)
             let position = CGAffineTransform(translationX: 0, y: -notchArea)
             locationLabel.alpha = 0

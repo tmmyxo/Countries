@@ -57,8 +57,6 @@ class WikiWebVC: UIViewController {
 
     private func loadURL(_ url: URL?) {
         guard let url = url else {
-            print(url)
-            print("url is nil")
             self.displayNotificationToUser(title: String(localized: "Invalid URL"), text: "", prefferedStyle: .alert) { _ in
                 self.navigationController?.popViewController(animated: true)
             }
@@ -77,7 +75,6 @@ extension WikiWebVC: WKNavigationDelegate {
     }
 
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
-        print(error.localizedDescription)
         self.displayNotificationToUser(title: String(localized: "Error"), text: "\(error.localizedDescription)", prefferedStyle: .alert) { _ in
             self.navigationController?.popViewController(animated: true)
         }
