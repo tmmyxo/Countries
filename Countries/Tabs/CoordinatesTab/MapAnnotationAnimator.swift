@@ -75,7 +75,7 @@ class MapAnnotationAnimator {
 
     func hideCallout(for annotationView: MKAnnotationView, completion: @escaping () -> Void = {}) {
         if let calloutView = annotationView.subviews.first(where: { view in
-            return view is UnsavedPointCalloutView || view is SavedPointCallout })
+            return view is UnsavedPointCallout || view is SavedPointCallout })
         {
             hide(calloutView) {
                 completion()

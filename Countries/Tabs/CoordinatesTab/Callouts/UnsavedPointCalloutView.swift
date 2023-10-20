@@ -21,7 +21,7 @@ class CustomCallout: UIView {
 
     var lineWidth: CGFloat = 1 { didSet { setNeedsDisplay() }}
     var cornerRadius: CGFloat = 16 { didSet { setNeedsDisplay() }}
-    var calloutSize: CGFloat = 10 { didSet { setNeedsDisplay() }}
+    var annotationViewSize: CGFloat = 10 { didSet { setNeedsDisplay() }}
     var fillColor: UIColor = Colors.backgroundColor { didSet { setNeedsDisplay() }}
     var strokeColor: UIColor = Colors.backgroundColor { didSet { setNeedsDisplay() }}
 
@@ -29,12 +29,12 @@ class CustomCallout: UIView {
         if annotation.isSaved {
             return SavedPointCallout(annotation: annotation)
         } else {
-            return UnsavedPointCalloutView(annotation: annotation)
+            return UnsavedPointCallout(annotation: annotation)
         }
     }
 }
 
-class UnsavedPointCalloutView: CustomCallout {
+class UnsavedPointCallout: CustomCallout {
 
     private var annotation: MapAnnotation
 
@@ -126,43 +126,7 @@ class UnsavedPointCalloutView: CustomCallout {
 
     // MARK: Custom callout draw
     override func draw(_ rect: CGRect) {
-        let rect = bounds
-        let path = UIBezierPath()
-        
-        // lower left corner
-        path.move(to: CGPoint(x: rect.minX + cornerRadius, y: rect.maxY - calloutSize))
-        path.addQuadCurve(to: CGPoint(x: rect.minX, y: rect.maxY - calloutSize - cornerRadius), controlPoint: CGPoint(x: rect.minX, y: rect.maxY - calloutSize))
-        
-        // left side
-        path.addLine(to: CGPoint(x: rect.minX, y: rect.minY + cornerRadius))
-        
-        // upper left corner
-        path.addQuadCurve(to: CGPoint(x: rect.minX + cornerRadius, y: rect.minY), controlPoint: CGPoint(x: rect.minX, y: rect.minY))
-        
-        // top
-        path.addLine(to: CGPoint(x: rect.maxX - cornerRadius, y: rect.minY))
-        
-        // upper right corner
-        path.addQuadCurve(to: CGPoint(x: rect.maxX, y: rect.minY + cornerRadius),
-                          controlPoint: CGPoint(x: rect.maxX, y: rect.minY))
-        // right
-        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY - calloutSize - cornerRadius))
-        
-        // lower right corner
-        path.addQuadCurve(to: CGPoint(x: rect.maxX - cornerRadius, y: rect.maxY - calloutSize),
-                          controlPoint: CGPoint(x: rect.maxX, y: rect.maxY - calloutSize))
-        
-        // bottom (including callout)
-        path.addLine(to: CGPoint(x: rect.midX + calloutSize, y: rect.maxY - calloutSize))
-        path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY))
-        path.addLine(to: CGPoint(x: rect.midX - calloutSize, y: rect.maxY - calloutSize))
-        path.close()
-        
-        fillColor.setFill()
-        path.fill()
-        path.close()
-        let shapeLayer = CAShapeLayer()
-        shapeLayer.path = path.cgPath
+        let shapeLayer = CalloutShape(for: self)
         layer.mask = shapeLayer
     }
 
@@ -173,14 +137,14 @@ class UnsavedPointCalloutView: CustomCallout {
             self.widthAnchor.constraint(equalToConstant: 250),
 
             detailView.topAnchor.constraint(equalTo: self.topAnchor),
-            detailView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -calloutSize),
+            detailView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -annotationViewSize),
             detailView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             detailView.widthAnchor.constraint(equalTo: self.widthAnchor, constant: -60),
 
             buttonsStackView.topAnchor.constraint(equalTo: self.topAnchor),
             buttonsStackView.leadingAnchor.constraint(equalTo: detailView.trailingAnchor),
             buttonsStackView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            buttonsStackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -calloutSize),
+            buttonsStackView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -annotationViewSize),
 
             latitudeLabel.topAnchor.constraint(equalTo: detailView.topAnchor, constant: 10),
             latitudeLabel.leadingAnchor.constraint(equalTo: detailView.leadingAnchor, constant: 10),
@@ -217,7 +181,7 @@ class UnsavedPointCalloutView: CustomCallout {
     }
 }
 
-extension UnsavedPointCalloutView {
+extension UnsavedPointCallout {
 
     // MARK: Actions
     @objc func addButtonTapped() {

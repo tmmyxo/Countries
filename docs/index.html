@@ -48,11 +48,11 @@
 
 
    <body>
+
       <header id="fh5co-heading">
-         <div class="animate-box">
-          <h1 class="headerTitle text-center">Terratorries</h1>
-            <div class="text-center topMargin60">
-            </div>
+         <div class="">
+          <h1 class="headerTitle text-center animate-box">Terratorries</h1>
+            <div class="text-center topMargin60"></div>
          </div>
          <div class="fullWidthContainer">
          <!-- <div class="headerContainer"> -->
@@ -63,18 +63,21 @@
                         <li style="background-image: url(appscreens/countryDetails.png);"></li>
                         <li style="background-image: url(appscreens/coordinatesTabLight.png);"></li>
                         <li style="background-image: url(appscreens/practiceTab.png);"></li>
-                     </ul>
-                  </div>
-               </aside>
-            </div>
+                      </ul>
+                      <p class="centerAligned">
+                          <a href="https://github.com/tmmyxo/Terratorries" class="btn-github" style="margin-top: -5vw; position: relative; z-index: 100;"><i class="icon-github btn-icon"></i><span style="padding-left: 10px;">See on GitHub</span></a>
+                      </p>
+                    </div>
+                  </aside>
+                </div>
           <!-- </div> -->
             <div class="headerContainer">
                <div class="col-md-6 animate-box">
                   <h2 class="boldSecondaryTitle">About the app</h2>
                   <h3 class="mainContentText">With this app you are able to browse countries and other territories of the world, 
-                     see basic data about them, and view their locations on the world map. You can play a mini-game to memorize flags 
-                     of countries you're interested in, and finally, you have a MapView that allows you to save locations by placing a 
-                     point and giving it a name. You can also save your current location as a point and see a short or full address of 
+                     see basic data about them, view their location on the world map and you can play a mini-game to memorize flags 
+                     of countries you're interested in. To save your own locations – you are provided with MapView that allows you to save your own points by placing a 
+                     pin and giving it a name. You can also save your current location as a point and see a short or full address of 
                      the selected point in a pop-over view.
                   </h3>
                   <h2 class="boldSecondaryTitle">Technologies used</h2>
@@ -95,38 +98,39 @@
       <div class="expandedContainer">
          <h2 class="boldTitle centerAligned animate-box">Key Features</h2>
 
-         <div class="col-md-4 animate-box">
+         <div class="col-md-6 animate-box">
             <h2 class="tertiaryTitle centerAligned">Expandable adress view</h2>
             <video autoplay loop playsinline muted class="topMargin10">
                <source src="appscreens/vids/adressView.mp4" type="video/mp4">
             </video>
-            <h3 class="descriptionText decreasedTopMargin">The view is presented whenever a pin on a map is selected. By default 
-               it displays short adress of the pin location but it can be expanded by tapping or dragging. You can copy adress by holding on it
+            <h3 class="descriptionText decreasedTopMargin">The view is shown when you select a pin on the map. It initially shows the abbreviated address of the pin's location, but you can expand it by tapping or dragging. If you wish to copy the address, you can do so by long-pressing it.
             </h3>
          </div>
 
 
-         <div class="col-md-4 animate-box">
+         <div class="col-md-6 animate-box">
             <h2 class="tertiaryTitle centerAligned">Neumorphic Buttons</h2>
             <video autoplay loop playsinline muted class="topMargin10">
                <source src="appscreens/vids/neumorphicButtons.mp4" type="video/mp4">
             </video>
-            <h3 class="descriptionText decreasedTopMargin">Practice tab greets user with beautiful neumorphic buttons, making the 
-               illusion of a 3D object just by using shadows. To extend button perception it has haptic feedback on touch and release.
-            </h3>
+            <h3 class="descriptionText decreasedTopMargin">The Practice tab greets the user with beautiful neumorphic buttons, creating the illusion of a 3D object through the clever use of shadows. To further enhance the perception of these buttons, haptic feedback is provided upon both touch and release.</h3>
          </div>
 
-         <div class="col-md-4 animate-box">
+         <div class="col-md-6 animate-box">
+            <h2 class="tertiaryTitle centerAligned">Custom Callout</h2>
+            <video autoplay loop playsinline muted class="topMargin10">
+               <source src="appscreens/vids/callout.mp4" type="video/mp4">
+            </video>
+            <h3 class="descriptionText decreasedTopMargin">In order to implement a custom design and layout for the annotation's callout view, a custom one had to be created, and it is done by using <span class="swift">UIBezierPath</span> to draw the callout shape.</h3>
+         </div>
+
+         <div class="col-md-6 animate-box">
             <h2 class="tertiaryTitle centerAligned">Tab Selection Slider</h2>
             <video autoplay loop playsinline muted class="topMargin10">
                <source src="appscreens/vids/tabSlider.mp4" type="video/mp4">
             </video>
-            <h3 class="descriptionText decreasedTopMargin">To display currently selected tab, smooth slider has been implemented, 
-               it will nicely transforms into a search button once "Coordinates" tab is selected. 
-               The button itself has haptic feedback to recreate the feeling of a real button.
-            </h3>
+            <h3 class="descriptionText decreasedTopMargin">To display the currently selected tab, a smooth slider has been implemented. It smoothly transforms into a search button when the '<span>Coordinates</span>' tab is selected. The button incorporates haptic feedback to replicate the sensation of pressing a real button.</h3>
          </div>
-
          
       </div>
 
@@ -135,51 +139,49 @@
           <h2 class="boldTitle centerAligned">Dark Mode Support</h2>
          
          <div class="col-md-6">
-            <video autoplay loop playsinline muted class="twoInARow">
+            <video autoplay loop playsinline muted style="max-height: 850px;">
                <source src="appscreens/vids/darkmode1.mp4" type="video/mp4">
             </video>
          </div>
 
          <div class="col-md-6">
-            <video autoplay loop playsinline muted class="twoInARow">
+            <video autoplay loop playsinline muted style="max-height: 850px;">
                <source src="appscreens/vids/darkmode2.mp4" type="video/mp4">
             </video>
          </div>
 
-         <h3 class="descriptionText">To support dark mode, I've created a color scheme with complimenting colors for both light and dark modes. 
-            To implement it, I designed two variants of used assets and created dynamic <span class="swift">UIColor</span> pairs for elements and shadows. 
-            Every color will choose its appropriate value automatically whenever the system appearence changes.
+         <h3 class="descriptionText">To support dark mode, I've designed a color scheme with complementary colors for both light and dark modes. To implement it, I've created two variants of used assets and dynamic <span class="swift">UIColor</span> pairs for elements and shadows. Every color will choose its appropriate value automatically whenever the system appearance changes.
           </h3>
         </div>
 
-
-      <div id="fh5co-started">
-         <div class="overlay topMargin80"></div>
-         <div class="container">
-            <div class="row animate-box">
-               <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                  <h2>Open for offers!</h2>
-                  <p><a href="contact.html" class="btn btn-default btn-lg">Contact Me</a></p>
-               </div>
-            </div>
+        <div class="container60 animate-box">
+          <h2 class="boldTitle centerAligned">Other Cool Stuff</h2>
+         
+         <div class="col-md-6 animate-box">
+            <video autoplay loop playsinline muted style="max-height: 850px;">
+               <source src="appscreens/vids/countryOnMapFocus.mp4" type="video/mp4">
+            </video>
+            <h3 class="descriptionText">When user stops scrolling through country details and the <span class="swift">UIMapView</span> is fully visible, it will show the country's location on the world map with a nice animation.</h3>
          </div>
-      </div>
+
+         <div class="col-md-6 animate-box">
+          <img src="appscreens/sheet.png" alt="Coordinates tab sheet" class="img-responsive" style="max-height: 850px; justify-content: center;">
+          <h3 class="descriptionText">Using this sheet, you can enter your coordinates and navigate to that point or focus on an already saved one by selecting it in the '<span>Saved locations</span>' tableView.</h3>
+         </div>
+
+        </div>
 
 
-      <footer id="fh5co-footer">
-         <div class="container">
-            <div class="row row-pb-md">
-               <div class="col-md-6 fh5co-widget">
-                  <h4>Contact Information</h4>
-                  <ul class="fh5co-footer-links">
-                     <li><a href="tel://380950934171">+38 095 093 4171</a></li>
-                     <li><a href="artemdolbiev@icloud.com">artemdolbiev@icloud.com</a></li>
-                     <li><a href="tmmyxo.github.io">tmmyxo.github.io</a></li>
+         <div class="footer-container animate-box">
+          <div class="line-1"></div>
+               <div class="fullWidthContainer" style="margin-top: 30px; margin-bottom: 30px;">
+                    <ul class="fh5co-footer-links list-unstyled contact-list">
+                      <li><a href="https://t.me/tmmy_xo"><i class="icon-telegram contact-icon"></i>tmmy_xo</a></li>
+                     <li><a href="mailto: artemdolbiev@icloud.com"><i class="icon-email contact-icon"></i>artemdolbiev@icloud.com</a></li>
+                     <li><a href="tmmyxo.github.io"><i class="icon-earth contact-icon"></i>tmmyxo.github.io</a></li>
                   </ul>
                </div>
-            </div>
          </div>
-      </footer>
 
       <div class="gototop js-top">
          <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>

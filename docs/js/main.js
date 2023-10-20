@@ -225,19 +225,21 @@
 		
 	  	$('#fh5co-hero .flexslider').flexslider({
 			animation: "fade",
-			slideshowSpeed: 3500,
-			directionNav: true,
+			animationSpeed: 0,
+			slideshowSpeed: 4000,
+			directionNav: false,
+			controlNav: false,
 			start: function(){
 				setTimeout(function(){
 					$('.slider-text').removeClass('animated fadeInUp');
 					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 1000);
+				}, 10000);
 			},
 			before: function(){
 				setTimeout(function(){
 					$('.slider-text').removeClass('animated fadeInUp');
 					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-				}, 1000);
+				}, 10000);
 			}
 
 	  	});

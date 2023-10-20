@@ -131,44 +131,7 @@ class SavedPointCallout: CustomCallout {
 
     // MARK: Custom callout draw
     override func draw(_ rect: CGRect) {
-        let rect = bounds
-        let path = UIBezierPath()
-        
-        // lower left corner
-        path.move(to: CGPoint(x: rect.minX + cornerRadius, y: rect.maxY - calloutSize))
-        path.addQuadCurve(to: CGPoint(x: rect.minX, y: rect.maxY - calloutSize - cornerRadius), controlPoint: CGPoint(x: rect.minX, y: rect.maxY - calloutSize))
-        
-        // left side
-        path.addLine(to: CGPoint(x: rect.minX, y: rect.minY + cornerRadius))
-        
-        // upper left corner
-        
-        path.addQuadCurve(to: CGPoint(x: rect.minX + cornerRadius, y: rect.minY), controlPoint: CGPoint(x: rect.minX, y: rect.minY))
-        
-        // top
-        path.addLine(to: CGPoint(x: rect.maxX - cornerRadius, y: rect.minY))
-        
-        // upper right corner
-        path.addQuadCurve(to: CGPoint(x: rect.maxX, y: rect.minY + cornerRadius),
-                          controlPoint: CGPoint(x: rect.maxX, y: rect.minY))
-        // right
-        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY - calloutSize - cornerRadius))
-        
-        // lower right corner
-        path.addQuadCurve(to: CGPoint(x: rect.maxX - cornerRadius, y: rect.maxY - calloutSize),
-                          controlPoint: CGPoint(x: rect.maxX, y: rect.maxY - calloutSize))
-        
-        // bottom (including callout)
-        path.addLine(to: CGPoint(x: rect.midX + calloutSize, y: rect.maxY - calloutSize))
-        path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY))
-        path.addLine(to: CGPoint(x: rect.midX - calloutSize, y: rect.maxY - calloutSize))
-        path.close()
-        
-        fillColor.setFill()
-        path.fill()
-        path.close()
-        let shapeLayer = CAShapeLayer()
-        shapeLayer.path = path.cgPath
+        let shapeLayer = CalloutShape(for: self)
         layer.mask = shapeLayer
     }
     
@@ -199,7 +162,7 @@ class SavedPointCallout: CustomCallout {
             pointNameLabel.bottomAnchor.constraint(equalTo: titleView.bottomAnchor),
             
             detailView.topAnchor.constraint(equalTo: titleView.bottomAnchor),
-            detailView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -calloutSize),
+            detailView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -annotationViewSize),
             detailView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             detailView.widthAnchor.constraint(equalTo: self.widthAnchor, constant: -60),
             
@@ -211,7 +174,7 @@ class SavedPointCallout: CustomCallout {
             deletePointButton.topAnchor.constraint(equalTo: editPointButton.bottomAnchor),
             deletePointButton.leadingAnchor.constraint(equalTo: editPointButton.leadingAnchor),
             deletePointButton.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            deletePointButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -calloutSize),
+            deletePointButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -annotationViewSize),
             
             latitudeLabel.topAnchor.constraint(equalTo: detailView.topAnchor, constant: 10),
             latitudeLabel.leadingAnchor.constraint(equalTo: detailView.leadingAnchor, constant: 10),
@@ -242,7 +205,7 @@ class SavedPointCallout: CustomCallout {
              finishedEditingButton.topAnchor.constraint(equalTo: editingTextField.bottomAnchor),
              finishedEditingButton.leadingAnchor.constraint(equalTo: detailView.trailingAnchor),
              finishedEditingButton.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-             finishedEditingButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -calloutSize),
+             finishedEditingButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -annotationViewSize),
          ])
 
          UIView.animate(withDuration: 0.2) {

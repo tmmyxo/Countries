@@ -20,11 +20,9 @@ body {
 }
 
 span {
-  font-size: 21px;
-  font-weight: 500;
   letter-spacing: 0px;
   word-spacing: 0px;
-  line-height: 28px;
+/*  line-height: 28px;*/
 }
 
 /*.boldWord {
@@ -39,7 +37,7 @@ span {
   font-size: 21px;
   font-weight: 700;
   font-family: "Inconsolata", Arial, sans-serif;
-  color: #E36EA0;
+  color: #E2659B;
 }
 
 #page {
@@ -70,7 +68,7 @@ span {
 }
 
 a {
-  color: #DD356E;
+  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -82,7 +80,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 video {
@@ -92,6 +90,7 @@ width: 100%;
 
 .twoInARow {
   max-height: 850px;
+  width: auto;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -106,7 +105,7 @@ font-family: 'Red Hat Display', sans-serif;
 .boldTitle {
   font-size: 45px;
   font-weight: 900;
-/*  background-color: orangered;*/
+  margin-bottom: 10px;
 }
 
 .headerTitle {
@@ -140,67 +139,118 @@ font-family: 'Red Hat Display', sans-serif;
   font-weight: 400;
   letter-spacing: 0px;
   word-spacing: 0px;
-  line-height: 30px;
+  line-height: 28px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
 
+.skillsBulletList {
+  font-size: 25px;
+  font-weight: 400;
+/*  font-family: 'Red Hat Display', sans-serif;*/
+  font-family: "Inconsolata", Arial, sans-serif;
+  color: #E2659B;
+  line-height: 48px;
+}
+
 @media (max-width: 460px) {
   .tertiaryTitle {
     font-size: 28px !important;
+    margin-top: 60px;
   }
 
   .boldTitle {
     font-size: 34px !important;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .mainContentText {
+    font-size: 18px !important;
+    line-height: 30px;
+  }
+
+  .descriptionText {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .btn-github {
+    margin-top: -8vw;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500 !important; 
+    font-size: 18px !important;
+  }
+
+  .btn-icon {
+    font-size: 25px;
+    vertical-align: text-top;
+  }
+
+  .skillsBulletList {
+    font-size: 21px;
+    line-height: 35px;
   }
 }
 
-@media (max-width: 535px) {
+@media (min-width: 461px) {
   .tertiaryTitle {
-    font-size: 28px !important;
+    font-size: 28px;
+    margin-top: 80px;
   }
 
   .boldTitle {
     font-size: 38px;
+    margin-top: 70px;
+  }
+
+  .skillsBulletList {
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .descriptionText {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .btn-github {
+    margin-top: -8vw;
+    padding: 15px 20px 15px 20px;
+    font-weight: 500; 
+    font-size: 18px;
+  }
+
+  .btn-icon {
+    font-size: 26px;
+    vertical-align: text-top;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
  .descriptionText {
-  font-size: 21px !important;
+  font-size: 21px;
+  line-height: 28px;
  }
 
  .tertiaryTitle {
-  margin-top: 60px !important;
   font-size: 30px;
- }
-
- .boldTitle {
-  margin-top: 60px;
  }
 
  .headerTitle {
   margin-top: 30px !important;
  }
+
+ .btn-github {
+  margin-top: -4vw;
+ }
+ 
 }
-
-/*@media (min-width: 768px) {
- .descriptionText {
-  width: 75%;
-  font-size: 21px;
-  font-weight: 200;
- }
-
- .tertiaryTitle {
-  font-size: 30px;
- }
-}*/
 
 @media (max-width: 991px) {
   .descriptionText {
     width: 75%;
-    font-size: 21px !important;
   }
   .tertiaryTitle {
     font-size: 35px;
@@ -210,10 +260,14 @@ font-family: 'Red Hat Display', sans-serif;
 @media (min-width: 992px) {
   .descriptionText {
     width: 75%;
-    font-size: 20px !important;
+    font-size: 20px;
   }
   .tertiaryTitle {
     font-size: 26px;
+  }
+
+  .btn-github {
+    margin-top: -10vw;
   }
 }
 
@@ -228,7 +282,7 @@ font-family: 'Red Hat Display', sans-serif;
 @media (min-width: 1200px) {
   .descriptionText {
     width: 75%;
-    font-size: 21px !important;
+    font-size: 21px;
   }
 
   .tertiaryTitle {
@@ -243,25 +297,29 @@ font-family: 'Red Hat Display', sans-serif;
   .headerTitle {
   margin-top: 60px;
  }
+
+ .skillsBulletList {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .btn-github {
+    margin-top: 0px;
+  }
 }
 
-@media (max-width: 1291px) {
+@media (max-width: 1334px) {
   .mainContentText {
     font-size: 21px;
 /*    line-height: 27px;*/
   }
+}
 
-  .tertiaryTitle {
-    margin-top: 90px;
+@media (min-width: 1335px) {
+  .skillsBulletList {
+    font-size: 25px;
+    line-height: 45px;
   }
-
-  .boldTitle {
-    margin-top: 90px;
-  }
-
-  .headerTitle {
-  margin-top: 60px;
- }
 }
 
 .decreasedTopMargin {
@@ -321,10 +379,10 @@ font-family: 'Red Hat Display', sans-serif;
   background: #DD356E;
 }
 
-::selection {
+/*::selection {
   color: #fff;
   background: #DD356E;
-}
+}*/
 
 .fh5co-nav {
   background: #fff;
@@ -764,9 +822,6 @@ font-family: 'Red Hat Display', sans-serif;
 }
 
 #fh5co-hero {
-/*  background-color: greenyellow;*/
-/*  height: 750px;*/
-/*  background: url(../images/loader.gif) no-repeat center center;*/
 }
 
 #fh5co-hero .btn {
@@ -784,7 +839,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (max-width: 768px) {
  #fh5co-hero .flexslider {
-    margin-bottom: -10vw;
+/*    margin-bottom: -10vw;*/
     margin-left: auto;
   }
 
@@ -797,7 +852,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (min-width: 768px) {
  #fh5co-hero .flexslider {
-    margin-bottom: -10vw;
+/*    margin-bottom: -10vw;*/
     margin-left: auto;
   }
 
@@ -810,7 +865,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (max-width: 992px) {
   #fh5co-hero .flexslider {
-    margin-bottom: -10vw;
+/*    margin-bottom: -10vw;*/
     margin-left: auto;
     margin-right: 0px;
   }
@@ -823,11 +878,11 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (min-width: 992px) {
  #fh5co-hero .flexslider {
-    margin-bottom: -8vw;
+/*    margin-bottom: -8vw;*/
     margin-left: auto;
     width: auto;
     max-width: 600px;
-    max-height: 900px;
+/*    max-height: 900px;*/
   }
 
   #fh5co-hero .flexslider .slides li{
@@ -841,13 +896,13 @@ font-family: 'Red Hat Display', sans-serif;
 
 @media screen and (min-width: 1200px) {
   #fh5co-hero .flexslider {
-    margin-bottom: -8vw;
+/*    margin-bottom: -8vw;*/
     margin-left: auto;
     padding-left: auto;
     padding-right: 0px;
     width: auto;
     max-width: 600px;
-    max-height: 900px;
+/*    max-height: 900px;*/
   }
 
   #fh5co-hero .flexslider .slides li{
@@ -855,6 +910,7 @@ font-family: 'Red Hat Display', sans-serif;
     width: auto;
     max-width: 600px;
     max-height: 900px;
+    display: inline-block;
   }
 }
 
@@ -956,8 +1012,9 @@ font-family: 'Red Hat Display', sans-serif;
 }
 
 #fh5co-footer {
-  padding-top: 2em;
+  padding-top: 4em;
   clear: both;
+  background-color: lightgray;
 }
 
 @media screen and (max-width: 768px) {
@@ -1329,7 +1386,7 @@ margin-top: 5em;
   list-style: none;
 }
 #fh5co-footer .fh5co-footer-links li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: gray;
   text-decoration: none;
 }
 #fh5co-footer .fh5co-footer-links li a:hover {
@@ -1649,6 +1706,37 @@ input[type="text"] {
   transition: 0.5s;
   padding: 8px 20px;
 }
+
+.btn-github {
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn-github:before, .btn-github:after {
+}
+
+.btn-github:hover,.btn-github:active,.btn-github:focus {
+  color: black;
+  background-color: #EBEBE8;
+  box-shadow: 0px 0px 10px #bdefbd;
+  transform: scale(1.05);
+}
+
+.btn-icon {
+  font-size: 33px;
+  vertical-align: text-top;
+}
+
 .btn.btn-md {
   padding: 8px 20px !important;
 }

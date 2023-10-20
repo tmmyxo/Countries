@@ -102,7 +102,8 @@ sub {
 }
 
 img {
-  border: 0;
+  margin: auto;
+  display: block;
 }
 
 svg:not(:root) {
@@ -701,32 +702,6 @@ ol ol {
   padding-right: 5px;
 }
 
-.skillsBulletList {
-  font-size: 25px;
-  font-weight: 400;
-/*  font-family: 'Red Hat Display', sans-serif;*/
-  font-family: "Inconsolata", Arial, sans-serif;
-  color: #E36EA0;
-  line-height: 48px;
-}
-
-@media (max-width: 1106px) {
-  .skillsBulletList {
-    font-size: 23px;
-    line-height: 38px;
-  }
-}
-
-
-@media (max-width: 1407px) {
-  .skillsBulletList {
-    font-size: 24px;
-    line-height: 40px;
-  }
-}
-
-
-
 .customBullet li::before{
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: black; /* Change the color */
@@ -941,6 +916,71 @@ pre code {
   clear: both;
 }
 
+.footer-container {
+/*  background-color: #EBEBE8;*/
+  margin-top: 60px;
+}
+
+.line-1 {
+  height: 1px;
+  width: 80%;
+  margin: auto auto;
+  background: lightgray;
+}
+
+.contact-icon {
+  font-size: 18px;
+  color: gray;
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
+
+.contact-icon:hover, .contact-icon:active, .contact-icon:focus{
+  color: black;
+}
+
+.footer-container:before, .footer-container:after {
+  content: " ";
+  display: table;
+}
+
+.footer-container:after {
+  clear: both;
+}
+
+.footer-container h4 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.footer-container h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.footer-container ul {
+  color: black;
+  text-align: center;
+}
+
+
+.footer-container a {
+  color: gray;
+  font-family: "Inconsolata", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.footer-container a:hover, .footer-container a:active, .footer-container a:focus{
+  color: black;
+}
+
 .container60 {
   margin-left: auto;
   margin-right: auto;
@@ -986,7 +1026,7 @@ pre code {
   }
 
   .expandedContainer {
-    width: 90%;
+    width: 100%;
   }
   .fullWidthContainer {
     margin-top: 10px;
@@ -1008,7 +1048,7 @@ pre code {
   }
 
   .expandedContainer {
-    width: 90%;
+    width: 80%;
   }
   .fullWidthContainer {
     width: 100%;
@@ -1020,7 +1060,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container60 {
-    width: 60%;
+    width: 75%;
   }
 
   .container {
@@ -1028,7 +1068,7 @@ pre code {
   }
 
   .expandedContainer {
-    width: 90%;
+    width: 80%;
   }
 
   .fullWidthContainer {
@@ -1046,7 +1086,7 @@ pre code {
   }
 
   .expandedContainer {
-    width: 90%;
+    width: 80%;
   }
 
   .fullWidthContainer {
@@ -1064,7 +1104,7 @@ pre code {
   }
 
   .expandedContainer {
-    width: 90%;
+    width: 80%;
   }
 
   .fullWidthContainer {
@@ -2817,9 +2857,8 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-default {
-  color: #27CE9C;
-  background-color: #27CE9C;
-  border-color: #ccc;
+  color: white;
+  background-color: black;
 }
 .btn-default:focus, .btn-default.focus {
   color: #333;

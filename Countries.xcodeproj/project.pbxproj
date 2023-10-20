@@ -48,6 +48,7 @@
 		EB1404892AB1C13800D1201C /* CoordinatesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1404882AB1C13800D1201C /* CoordinatesVM.swift */; };
 		EB14048B2AB1C20500D1201C /* CoordinatesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14048A2AB1C20500D1201C /* CoordinatesService.swift */; };
 		EB285757274E859A00933E15 /* MapAnnotationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB285756274E859A00933E15 /* MapAnnotationAnimator.swift */; };
+		EB2A0AE12AE02E5C00595DEF /* CalloutShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2A0AE02AE02E5C00595DEF /* CalloutShape.swift */; };
 		EB5017FA2AD6C71B00716F9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5017F92AD6C71B00716F9D /* SceneDelegate.swift */; };
 		EB7FC67D2ACC400600E03E42 /* UIStackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FC67C2ACC400600E03E42 /* UIStackViewExtension.swift */; };
 		EB7FC6802ACC53A400E03E42 /* CountryDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7FC67F2ACC53A400E03E42 /* CountryDetailsVM.swift */; };
@@ -115,6 +116,7 @@
 		EB1404882AB1C13800D1201C /* CoordinatesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesVM.swift; sourceTree = "<group>"; };
 		EB14048A2AB1C20500D1201C /* CoordinatesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesService.swift; sourceTree = "<group>"; };
 		EB285756274E859A00933E15 /* MapAnnotationAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationAnimator.swift; sourceTree = "<group>"; };
+		EB2A0AE02AE02E5C00595DEF /* CalloutShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutShape.swift; sourceTree = "<group>"; };
 		EB5017F92AD6C71B00716F9D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EB7FC67C2ACC400600E03E42 /* UIStackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtension.swift; sourceTree = "<group>"; };
 		EB7FC67F2ACC53A400E03E42 /* CountryDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsVM.swift; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				EB11B9C527399D8D00BDC701 /* CustomTextField.swift */,
 				EB885CCB2747B2D70082DE9E /* UnsavedPointCalloutView.swift */,
 				EBC421E0274FFB810006FC26 /* SavedPointCallout.swift */,
+				EB2A0AE02AE02E5C00595DEF /* CalloutShape.swift */,
 			);
 			path = Callouts;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				EB11B9E727399D8E00BDC701 /* NavigationBarExtension.swift in Sources */,
 				EB285757274E859A00933E15 /* MapAnnotationAnimator.swift in Sources */,
 				EBC421E1274FFB810006FC26 /* SavedPointCallout.swift in Sources */,
+				EB2A0AE12AE02E5C00595DEF /* CalloutShape.swift in Sources */,
 				EB11B9D627399D8E00BDC701 /* GameVC.swift in Sources */,
 				EB11B9D727399D8E00BDC701 /* WikiWebVC.swift in Sources */,
 				EBA407792ACF03280086B58D /* StringExtension.swift in Sources */,
