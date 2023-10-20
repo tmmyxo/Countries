@@ -145,6 +145,14 @@ font-family: 'Red Hat Display', sans-serif;
   margin-right: auto;
 }
 
+.descriptionText span {
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 28px;
+}
+
 .skillsBulletList {
   font-size: 25px;
   font-weight: 400;
@@ -171,7 +179,7 @@ font-family: 'Red Hat Display', sans-serif;
     line-height: 30px;
   }
 
-  .descriptionText {
+  .descriptionText, .descriptionText span {
     font-size: 17px;
     line-height: 26px;
   }
@@ -192,6 +200,7 @@ font-family: 'Red Hat Display', sans-serif;
     font-size: 21px;
     line-height: 35px;
   }
+
 }
 
 @media (min-width: 461px) {
@@ -210,7 +219,7 @@ font-family: 'Red Hat Display', sans-serif;
     line-height: 38px;
   }
 
-  .descriptionText {
+  .descriptionText, .descriptionText span {
     font-size: 19px;
     line-height: 27px;
   }
@@ -229,7 +238,7 @@ font-family: 'Red Hat Display', sans-serif;
 }
 
 @media (min-width: 768px) {
- .descriptionText {
+ .descriptionText, .descriptionText span {
   font-size: 21px;
   line-height: 28px;
  }
@@ -258,7 +267,7 @@ font-family: 'Red Hat Display', sans-serif;
 }
 
 @media (min-width: 992px) {
-  .descriptionText {
+  .descriptionText, .descriptionText span {
     width: 75%;
     font-size: 20px;
   }
@@ -280,7 +289,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 
 @media (min-width: 1200px) {
-  .descriptionText {
+  .descriptionText, .descriptionText span {
     width: 75%;
     font-size: 21px;
   }
