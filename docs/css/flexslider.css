@@ -43,6 +43,7 @@
 .flexslider {
   margin: 0;
   padding: 0;
+  pointer-events: none;
 }
 .flexslider .slides > li {
   display: none;
@@ -87,6 +88,7 @@ html[xmlns] .flexslider .slides {
   box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);*/
 }
 .flexslider .slides {
+  pointer-events: none;
   zoom: 1;
 }
 .flexslider .slides img {

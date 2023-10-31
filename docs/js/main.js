@@ -226,9 +226,10 @@
 	  	$('#fh5co-hero .flexslider').flexslider({
 			animation: "fade",
 			animationSpeed: 0,
-			slideshowSpeed: 4000,
+			slideshowSpeed: 3000,
 			directionNav: false,
 			controlNav: false,
+
 			start: function(){
 				setTimeout(function(){
 					$('.slider-text').removeClass('animated fadeInUp');
