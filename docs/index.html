@@ -35,11 +35,18 @@
 
    <body>
       <header id="fh5co-heading">
-         <div class="">
-          <h1 class="headerTitle text-center animate-box">Terratorries</h1>
-            <div class="text-center topMargin60"></div>
+
+         <div class="header">
+            <div class="left-header">
+               <a href="https://tmmyxo.github.io/Portfolio/"><img src="resources/back-arrow.svg" class="btn-icon"></img> Portfolio</a>
+            </div>
+            <div class="center-header">
+               <h1 class="headerTitle animate-box">Terratorries</h1>
+            </div>
+            <div class="right-header"></div>
          </div>
-         <div class="fullWidthContainer">
+
+         <div class="fullWidthContainer" id="app-description">
          <!-- <div class="headerContainer"> -->
             <div class="col-md-6 animate-box">
                <aside id="fh5co-hero">
@@ -57,15 +64,23 @@
                 </div>
           <!-- </div> -->
             <div class="headerContainer">
-               <div class="col-md-6 animate-box">
+               <div class="col-md-6 animate-box" id="description-box">
                   <h2 class="boldSecondaryTitle">About the app</h2>
-                  <h3 class="mainContentText">With this app you are able to browse countries and other territories of the world, 
-                     see basic data about them, view their location on the world map and you can play a mini-game to memorize flags 
-                     of countries you're interested in. To save your own locations – you are provided with MapView that allows you to save your own points by placing a 
-                     pin and giving it a name. You can also save your current location as a point and see a short or full address of 
-                     the selected point in a pop-over view.
+                  <h3 class="mainContentText">
+                    Allows user to browse countries and other territories of the world, see basic data about them, view their location on the world map, open Wiki-page in corresponding to interface language, play a mini-game to memorize flags and navigate world map to create custom points.
                   </h3>
-                  <h2 class="boldSecondaryTitle">Technologies used</h2>
+
+                  <ul class="features-list customBullet" style="margin-top: 15px">
+                     <li><span>Programmatic UI</span> without the use of Storyboards.</li>
+                     <li>Animated <span>expandable</span> address view to show full or abreviated adress of selected point, supports hold to copy.</li>
+                     <li><span>Animated</span> Tab-Selection slider.</li>
+                     <li>Implemented <span>custom</span> annotation callout view with the use of <span class="swift">UIBezierPath</span> that allows <span>full customization</span> of callout's design and layout over the native implementation.</li>
+                     
+                     <li>Supports <span>Dark Mode</span>.</li>
+                     <li><span>Neumorphic</span> buttons.</li>
+                     <li>Interface and country data <span>localized</span> to Ukrainian with the use of String Catalogues.</li>
+                  </ul>
+                  <h2 class="boldSecondaryTitle" id="frameworks-list">Frameworks used</h2>
                   <ul class="list-unstyled customBullet skillsBulletList">
                      <li>Swift</li>
                      <li>UIKit</li>
@@ -80,47 +95,51 @@
       </header>
 
 
-      <div class="expandedContainer">
+      <div class="expandedContainer" id="key-features-container">
          <h2 class="boldTitle centerAligned animate-box">Key Features</h2>
 
-         <div class="col-md-6 animate-box">
-            <h2 class="tertiaryTitle centerAligned">Expandable adress view</h2>
-            <video autoplay loop playsinline muted class="topMargin10">
-               <source src="appscreens/vids/adressView.mp4" type="video/mp4">
-            </video>
-            <h3 class="descriptionText decreasedTopMargin">The view is shown when you select a pin on the map. It initially shows the abbreviated address of the pin's location, but you can expand it by tapping or dragging. If you wish to copy the address, you can do so by long-pressing it.
-            </h3>
-         </div>
+         <div class="key-features-row">
+            <div class="animate-box feature-container">
+               <h2 class="tertiaryTitle centerAligned">Expandable adress view</h2>
+               <video autoplay loop playsinline muted class="topMargin10">
+                  <source src="appscreens/vids/adressView.mp4" type="video/mp4">
+               </video>
+               <h3 class="descriptionText decreasedTopMargin">The view is shown when you select a pin on the map. It initially shows the abbreviated address of the pin's location, but you can expand it by tapping or dragging. If you wish to copy the address, you can do so by long-pressing it.
+               </h3>
+            </div>
 
 
-         <div class="col-md-6 animate-box">
-            <h2 class="tertiaryTitle centerAligned">Neumorphic Buttons</h2>
-            <video autoplay loop playsinline muted class="topMargin10">
-               <source src="appscreens/vids/neumorphicButtons.mp4" type="video/mp4">
-            </video>
-            <h3 class="descriptionText decreasedTopMargin">The Practice tab greets the user with beautiful neumorphic buttons, creating the illusion of a 3D object through the clever use of shadows. To further enhance the perception of these buttons, haptic feedback is provided upon both touch and release.</h3>
+            <div class="animate-box feature-container">
+               <h2 class="tertiaryTitle centerAligned">Neumorphic Buttons</h2>
+               <video autoplay loop playsinline muted class="topMargin10">
+                  <source src="appscreens/vids/neumorphicButtons.mp4" type="video/mp4">
+               </video>
+               <h3 class="descriptionText decreasedTopMargin">The Practice tab greets the user with beautiful neumorphic buttons, creating the illusion of a 3D object through the clever use of shadows. To further enhance the perception of these buttons, haptic feedback is provided upon both touch and release.</h3>
+            </div>
          </div>
 
-         <div class="col-md-6 animate-box">
-            <h2 class="tertiaryTitle centerAligned">Custom Callout</h2>
-            <video autoplay loop playsinline muted class="topMargin10">
-               <source src="appscreens/vids/callout.mp4" type="video/mp4">
-            </video>
-            <h3 class="descriptionText decreasedTopMargin">In order to implement a custom design and layout for the annotation's callout view, a custom one had to be created, and it is done by using <span class="swift">UIBezierPath</span> to draw the callout shape.</h3>
-         </div>
+         <div class="key-features-row">
+            <div class="feature-container animate-box">
+               <h2 class="tertiaryTitle centerAligned">Custom Callout</h2>
+               <video autoplay loop playsinline muted class="topMargin10">
+                  <source src="appscreens/vids/callout.mp4" type="video/mp4">
+               </video>
+               <h3 class="descriptionText decreasedTopMargin">In order to implement a custom design and layout for the annotation's callout view, a custom one had to be created, and it is done by using <span class="swift">UIBezierPath</span> to draw the callout shape.</h3>
+            </div>
 
-         <div class="col-md-6 animate-box">
-            <h2 class="tertiaryTitle centerAligned">Tab Selection Slider</h2>
-            <video autoplay loop playsinline muted class="topMargin10">
-               <source src="appscreens/vids/tabSlider.mp4" type="video/mp4">
-            </video>
-            <h3 class="descriptionText decreasedTopMargin">To display the currently selected tab, a smooth slider has been implemented. It smoothly transforms into a search button when the '<span>Coordinates</span>' tab is selected. The button incorporates haptic feedback to replicate the sensation of pressing a real button.</h3>
+            <div class="feature-container animate-box">
+               <h2 class="tertiaryTitle centerAligned">Tab Selection Slider</h2>
+               <video autoplay loop playsinline muted class="topMargin10">
+                  <source src="appscreens/vids/tabSlider.mp4" type="video/mp4">
+               </video>
+               <h3 class="descriptionText decreasedTopMargin">To display the currently selected tab, a smooth slider has been implemented. It smoothly transforms into a search button when the '<span>Coordinates</span>' tab is selected. The button incorporates haptic feedback to replicate the sensation of pressing a real button.</h3>
+            </div>
          </div>
-         
       </div>
 
 
-        <div class="container60 animate-box">
+      <div class="expandedContainer">
+        <div class="animate-box feature-container photo-editor-container">
           <h2 class="boldTitle centerAligned">Dark Mode Support</h2>
          
          <div class="col-md-6">
@@ -139,7 +158,7 @@
           </h3>
         </div>
 
-         <div class="container60 animate-box">
+         <div class="animate-box feature-container photo-editor-container">
           <h2 class="boldTitle centerAligned">Ukrainian Localization</h2>
          
          <div class="col-md-6 animate-box">
@@ -152,7 +171,7 @@
          <h3 class="descriptionText">The app and country data are fully localized to the Ukrainian language with the help of <span>String Catalogs</span>. The language is set automatically depending on the system's language. Additionally, when opening a Wikipedia page for a selected country, the app will generate a link accordingly, ensuring that the opened Wikipedia article is in the corresponding language.</h3>
        </div>
 
-        <div class="container60 animate-box">
+        <div class="animate-box feature-container photo-editor-container">
           <h2 class="boldTitle centerAligned">Other Cool Stuff</h2>
          
          <div class="col-md-6 animate-box">
@@ -168,17 +187,19 @@
          </div>
 
         </div>
+     </div>
 
 
-         <div class="footer-container animate-box">
-          <div class="line-1"></div>
-               <div class="fullWidthContainer" style="margin-top: 30px; margin-bottom: 30px;">
-                    <ul class="fh5co-footer-links list-unstyled contact-list">
-                      <li><a href="https://t.me/tmmy_xo"><i class="icon-telegram contact-icon"></i>tmmy_xo</a></li>
-                     <li><a href="mailto: artemdolbiev@icloud.com"><i class="icon-email contact-icon"></i>artemdolbiev@icloud.com</a></li>
-                     <li><a href="tmmyxo.github.io"><i class="icon-earth contact-icon"></i>tmmyxo.github.io</a></li>
-                  </ul>
-               </div>
+         <div class="footer-container">
+           <div class="line-1"></div>
+              <div>
+                <ul class="fh5co-footer-links list-unstyled contact-list">
+                     <li><a href="https://tmmyxo.github.io/Portfolio/"><i class="icon-earth contact-icon"></i>Portfolio</a></li>
+                     <li><a href="mailto:artem.dolbiiev@gmail.com"><i class="icon-email contact-icon"></i>artem.dolbiiev@gmail.com</a></li>
+                    <li><a href="https://wa.me/380950934171"><i class="icon-whatsapp contact-icon"></i>Chat on WhatsApp</a></li>
+                    <li><a href="https://t.me/tmmy_xo"><i class="icon-telegram contact-icon"></i>tmmy_xo</a></li>
+                 </ul>
+              </div>
          </div>
 
       <div class="gototop js-top">
